@@ -9,7 +9,7 @@ from spacy.tokenizer import Tokenizer
 # from nltk.tokenize import TweetTokenizer
 from spacy.tokenizer import Tokenizer
 from spacy.lang.en import English
-nlp = spacy.blank("en")
+nlp = spacy.load("en_core_web_sm")
 
 def helper():
     skipped_count = 0
@@ -32,7 +32,8 @@ def helper():
                 dict_tmp["document"] = text
                 dict_tmp["tokens"], dict_tmp["relations"] = [], []
                 print(text)
-                tokenLst = nlp(text)
+                mytokens = nlp(text)
+                tokenLst = [word.lemma_.lower().strip() for word in mytokens]
                 print(tokenLst)
                 # tknzr = TweetTokenizer()
                 # tokenLst = tknzr.tokenize(text)
@@ -57,9 +58,13 @@ def helper():
                         # tokenizer = Tokenizer(nlp.vocab)
                         # tmp_tockes = tokenizer(token_dict["text"])
                         print(token_dict["text"])
-                        tmp_tockes = nlp(token_dict["text"])
-                        print("tmp_tockes: ",tmp_tockes)
-                        print("token_dict[\"text\"]: ",token_dict["text"])
+                        mytokens = nlp(token_dict["text"])
+                        print("mytokens: ",mytokens)
+                        # tmp_tockes = [word.lemma_.lower().strip() for word in mytokens]
+                        tmp_tockes = [w.lemma_.lower().strip()  for w in mytokens]
+                        print("tmp_tockes[0]: ",tmp_tockes[0])
+
+                        # print("token_dict[\"text\"]: ",token_dict["text"])
                         print("tokenLst: ",tokenLst)
                         #@TODO
                         t_start = tokenLst.index(tmp_tockes[0])
@@ -79,6 +84,7 @@ def helper():
                 out_array.append(dict_tmp)
         with open(out_file, 'w') as json_file:
             json.dump(out_array, json_file)
+            input("file written")
     print("skipped:", skipped_count)
     # @TODO: backup extra lable
 
