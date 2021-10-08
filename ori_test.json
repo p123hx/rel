@@ -583,7 +583,7 @@
                            },
                            "subject":{
                               "@charoffset":"179",
-                              "@text":"lung",
+                              "@text":"lungs",
                               "cui":"C0024109",
                               "preferredname":"Lung",
                               "semantictypes":{
@@ -2607,7 +2607,7 @@
                            },
                            "object":{
                               "@charoffset":"4",
-                              "@text":"intervention",
+                              "@text":"interventions",
                               "cui":"C1273869",
                               "preferredname":"Intervention regimes",
                               "semantictypes":{

@@ -6,15 +6,18 @@
 import json
 import spacy
 from spacy.tokenizer import Tokenizer
-# from nltk.tokenize import TweetTokenizer
+from nltk.tokenize import TweetTokenizer
 from spacy.tokenizer import Tokenizer
 from spacy.lang.en import English
 nlp = spacy.load("en_core_web_sm")
-
+def tokenize_helper(text):
+    tknzr = TweetTokenizer()
+    tokenLst = tknzr.tokenize(text)
+    return tokenLst
 def helper():
     skipped_count = 0
     in_files = ["ori_dev.json", "ori_test.json", "ori_training.json"]
-    out_files = ["relations_dev.json", "relations_test.json", "relations_training.json"]
+    out_files = ["relations_dev.txt", "relations_test.txt", "relations_training.txt"]
     for i in range(3):
         file = in_files[i]
         out_file = out_files[i]
@@ -27,14 +30,15 @@ def helper():
                 continue
             for sentence in sentences["sentence"]:  # just title and abstract
                 dict_tmp = {}
-                print(sentence)
+                print("sentence: ", sentence)
                 text = sentence["@text"]
                 dict_tmp["document"] = text
                 dict_tmp["tokens"], dict_tmp["relations"] = [], []
-                print(text)
-                mytokens = nlp(text)
-                tokenLst = [word.lemma_.lower().strip() for word in mytokens]
-                print(tokenLst)
+                print("text: ",text)
+                # mytokens = nlp(text)
+                # tokenLst = [word.lemma_.lower().strip() for word in mytokens]
+                tokenLst = tokenize_helper(text)
+                print("tokenLst: ",tokenLst)
                 # tknzr = TweetTokenizer()
                 # tokenLst = tknzr.tokenize(text)
                 if "predications" not in sentence:
@@ -57,11 +61,12 @@ def helper():
                         # tmp_tockes = tknzr.tokenize(token_dict["text"])
                         # tokenizer = Tokenizer(nlp.vocab)
                         # tmp_tockes = tokenizer(token_dict["text"])
-                        print(token_dict["text"])
-                        mytokens = nlp(token_dict["text"])
-                        print("mytokens: ",mytokens)
+                        tmp_tockes = tokenize_helper(token_dict["text"])
+                        print("token_dict[\"text\"]: ",token_dict["text"])
+                        # mytokens = nlp(token_dict["text"])
+                        # print("mytokens: ",mytokens)
                         # tmp_tockes = [word.lemma_.lower().strip() for word in mytokens]
-                        tmp_tockes = [w.lemma_.lower().strip()  for w in mytokens]
+                        # tmp_tockes = [w.lemma_.lower().strip()  for w in mytokens]
                         print("tmp_tockes[0]: ",tmp_tockes[0])
 
                         # print("token_dict[\"text\"]: ",token_dict["text"])
@@ -82,9 +87,13 @@ def helper():
                     #
                     dict_tmp["relations"].append(rela_dict)
                 out_array.append(dict_tmp)
-        with open(out_file, 'w') as json_file:
-            json.dump(out_array, json_file)
-            input("file written")
+        # with open(out_file, 'w') as json_file:
+        #     json.dump(out_array, json_file)
+        #     input("file written")
+        json_object = json.dumps(out_array, indent=4)
+        # Writing to sample.json
+        with open(out_file, "w") as outfile:
+            outfile.write(json_object)
     print("skipped:", skipped_count)
     # @TODO: backup extra lable
 

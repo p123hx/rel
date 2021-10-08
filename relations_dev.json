@@ -1,0 +1,1284 @@
+[
+    {
+        "document": "Phase II study of recombinant human endostatin in patients with advanced neuroendocrine tumors.",
+        "tokens": [
+            {
+                "text": "endostatin",
+                "start": 36,
+                "end": 46,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "human",
+                "start": 30,
+                "end": 35,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Group"
+            },
+            {
+                "text": "endostatin",
+                "start": 36,
+                "end": 46,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "patients",
+                "start": 50,
+                "end": 58,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "neuroendocrine tumors",
+                "start": 73,
+                "end": 94,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 50,
+                "end": 58,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "endostatin",
+                "start": 36,
+                "end": 46,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "neuroendocrine tumors",
+                "start": 73,
+                "end": 94,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 6,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 8,
+                "head": 6,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 8,
+                "head": 11,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 11,
+                "head": 6,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "PATIENTS AND METHODS: Forty-two patients with advanced pancreatic endocrine tumors or carcinoid tumors were treated with rhEndostatin administered as a bid subcutaneous injection at a starting dose of 60 mg/m2/d.",
+        "tokens": [
+            {
+                "text": "pancreatic endocrine tumors",
+                "start": 55,
+                "end": 82,
+                "token_start": 8,
+                "token_end": 10,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 32,
+                "end": 40,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "carcinoid tumors",
+                "start": 86,
+                "end": 102,
+                "token_start": 12,
+                "token_end": 13,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 32,
+                "end": 40,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "rhEndostatin",
+                "start": 121,
+                "end": 133,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "patients",
+                "start": 32,
+                "end": 40,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "rhEndostatin",
+                "start": 121,
+                "end": 133,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "pancreatic endocrine tumors",
+                "start": 55,
+                "end": 82,
+                "token_start": 8,
+                "token_end": 10,
+                "entityLabel": "N"
+            },
+            {
+                "text": "rhEndostatin",
+                "start": 121,
+                "end": 133,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "carcinoid tumors",
+                "start": 86,
+                "end": 102,
+                "token_start": 12,
+                "token_end": 13,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 8,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 5,
+                "head": 12,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 5,
+                "head": 17,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 8,
+                "head": 17,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 12,
+                "head": 17,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "It was suggested that individuals seroconverting later in calendar time were more likely to have TDR (relative risk 3.89 and 95% CI: 0.84 to 18.02, and relative risk 4.69 and 95% CI: 1.03 to 21.31, for 1996-1999 and 2000-2003, respectively, compared with pre-1996; P trend = 0.08).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "The total estimated proportion of individuals with TDR varied between 10.3% and 15.5% according to which definition was used.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Patients with higher serum phosphorus (P) (group A: P &gt; or = 7 mg/dl) were compared with those with lower serum P levels (group B: P &lt; 7 mg/dl).",
+        "tokens": [
+            {
+                "text": "serum",
+                "start": 21,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "B"
+            },
+            {
+                "text": "phosphorus",
+                "start": 27,
+                "end": 37,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "Patients",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "phosphorus",
+                "start": 27,
+                "end": 37,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "Patients",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "P",
+                "start": 112,
+                "end": 113,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Element, Ion, or Isotope"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 3,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 4,
+                "head": 0,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Adherens junctions and more specifically cadherins play an important role in endothelial cell integrity and growth and, in general, in vascular morphogenesis.",
+        "tokens": [
+            {
+                "text": "Adherens junctions",
+                "start": 0,
+                "end": 18,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "C"
+            },
+            {
+                "text": "vascular morphogenesis",
+                "start": 135,
+                "end": 157,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "O"
+            },
+            {
+                "text": "cadherins",
+                "start": 41,
+                "end": 50,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "vascular morphogenesis",
+                "start": 135,
+                "end": 157,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "O"
+            },
+            {
+                "text": "Adherens junctions",
+                "start": 0,
+                "end": 18,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "C"
+            },
+            {
+                "text": "endothelial cell",
+                "start": 77,
+                "end": 93,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "cadherins",
+                "start": 41,
+                "end": 50,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "endothelial cell",
+                "start": 77,
+                "end": 93,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "cadherins",
+                "start": 41,
+                "end": 50,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "endothelial cell integrity and growth",
+                "start": 77,
+                "end": 114,
+                "token_start": 11,
+                "token_end": 15,
+                "entityLabel": "C"
+            },
+            {
+                "text": "Adherens junctions",
+                "start": 0,
+                "end": 18,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "C"
+            },
+            {
+                "text": "endothelial cell integrity and growth",
+                "start": 77,
+                "end": 114,
+                "token_start": 11,
+                "token_end": 15,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 22,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 22,
+                "head": 5,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 11,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 11,
+                "head": 5,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 11,
+                "head": 5,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 11,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "N-cadherin is also abundantly expressed in the endothelium and may be important in modulating VE-cadherin expression.",
+        "tokens": [
+            {
+                "text": "endothelium",
+                "start": 47,
+                "end": 58,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "T"
+            },
+            {
+                "text": "N-cadherin",
+                "start": 0,
+                "end": 10,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "N-cadherin",
+                "start": 0,
+                "end": 10,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "VE-cadherin",
+                "start": 94,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 16,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 7,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 14,
+                "head": 0,
+                "relationLabel": "INTERACTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "BAFF-R expression was found only in B-cell lymphoma (44/80, positive cases/examined cases): B-lymphoblastic lymphoma 0/3, B-chronic lymphocytic leukemia/small lymphocytic lymphoma 4/4, mantle cell lymphoma 9/11, follicular lymphoma 10/14, diffuse large B-cell lymphoma (DLBCL) 11/25, marginal zone B-cell lymphoma 8/10, lymphoplasmacytic lymphoma 2/2, plasma cell myeloma 0/2, and Burkitt lymphoma 0/9, but not in T/NK cell lymphomas (0/19) or Hodgkin lymphoma (0/10).",
+        "tokens": [
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-lymphoblastic lymphoma",
+                "start": 92,
+                "end": 116,
+                "token_start": 17,
+                "token_end": 20,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-chronic lymphocytic leukemia/small lymphocytic lymphoma",
+                "start": 122,
+                "end": 179,
+                "token_start": 21,
+                "token_end": 29,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "mantle cell lymphoma",
+                "start": 185,
+                "end": 205,
+                "token_start": 30,
+                "token_end": 32,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "follicular lymphoma",
+                "start": 212,
+                "end": 231,
+                "token_start": 35,
+                "token_end": 36,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "diffuse large B-cell lymphoma",
+                "start": 239,
+                "end": 268,
+                "token_start": 39,
+                "token_end": 44,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "marginal zone B-cell lymphoma",
+                "start": 284,
+                "end": 313,
+                "token_start": 48,
+                "token_end": 53,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "lymphoplasmacytic lymphoma",
+                "start": 320,
+                "end": 346,
+                "token_start": 55,
+                "token_end": 56,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "plasma cell myeloma",
+                "start": 352,
+                "end": 371,
+                "token_start": 59,
+                "token_end": 61,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "Burkitt lymphoma",
+                "start": 381,
+                "end": 397,
+                "token_start": 65,
+                "token_end": 66,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "Hodgkin lymphoma",
+                "start": 444,
+                "end": 460,
+                "token_start": 81,
+                "token_end": 82,
+                "entityLabel": "N"
+            },
+            {
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "B-lymphoblastic lymphoma",
+                "start": 92,
+                "end": 116,
+                "token_start": 17,
+                "token_end": 20,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "B-chronic lymphocytic leukemia/small lymphocytic lymphoma",
+                "start": 122,
+                "end": 179,
+                "token_start": 21,
+                "token_end": 29,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "mantle cell lymphoma",
+                "start": 185,
+                "end": 205,
+                "token_start": 30,
+                "token_end": 32,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "follicular lymphoma",
+                "start": 212,
+                "end": 231,
+                "token_start": 35,
+                "token_end": 36,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "diffuse large B-cell lymphoma",
+                "start": 239,
+                "end": 268,
+                "token_start": 39,
+                "token_end": 44,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "marginal zone B-cell lymphoma",
+                "start": 284,
+                "end": 313,
+                "token_start": 48,
+                "token_end": 53,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "lymphoplasmacytic lymphoma",
+                "start": 320,
+                "end": 346,
+                "token_start": 55,
+                "token_end": 56,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "plasma cell myeloma",
+                "start": 352,
+                "end": 371,
+                "token_start": 59,
+                "token_end": 61,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "Burkitt lymphoma",
+                "start": 381,
+                "end": 397,
+                "token_start": 65,
+                "token_end": 66,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "Hodgkin lymphoma",
+                "start": 444,
+                "end": 460,
+                "token_start": 81,
+                "token_end": 82,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 6,
+                "head": 17,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 21,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 30,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 35,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 39,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 48,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 55,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 59,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 65,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 6,
+                "head": 81,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 17,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 21,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 30,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 35,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 39,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 48,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 55,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 59,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 65,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 81,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "BAFF-R was expressed in most low-grade B-cell neoplasms and a small number of DLBCL, suggesting that BAFF-R may play an important role in the proliferation of neoplastic lymphoid cells.",
+        "tokens": [
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "B-cell neoplasms",
+                "start": 39,
+                "end": 55,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "DLBCL",
+                "start": 78,
+                "end": 83,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "N"
+            },
+            {
+                "text": "BAFF-R",
+                "start": 101,
+                "end": 107,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
+            },
+            {
+                "text": "proliferation",
+                "start": 142,
+                "end": 155,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "C"
+            },
+            {
+                "text": "proliferation",
+                "start": 142,
+                "end": 155,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "C"
+            },
+            {
+                "text": "lymphoid cells",
+                "start": 170,
+                "end": 184,
+                "token_start": 28,
+                "token_end": 29,
+                "entityLabel": "C"
+            },
+            {
+                "text": "lymphoid cells",
+                "start": 170,
+                "end": 184,
+                "token_start": 28,
+                "token_end": 29,
+                "entityLabel": "C"
+            },
+            {
+                "text": "neoplastic",
+                "start": 159,
+                "end": 169,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 13,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 25,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 28,
+                "head": 25,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 27,
+                "head": 28,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: This study initially surveyed 163 patients with clinical stage Ib or IIa cervical adenocarcinoma treated with radical hysterectomy and pelvic lymphadenectomy.",
+        "tokens": [
+            {
+                "text": "cervical adenocarcinoma",
+                "start": 82,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 43,
+                "end": 51,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "radical hysterectomy",
+                "start": 119,
+                "end": 139,
+                "token_start": 18,
+                "token_end": 19,
+                "entityLabel": "T"
+            },
+            {
+                "text": "cervical adenocarcinoma",
+                "start": 82,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "N"
+            },
+            {
+                "text": "pelvic lymphadenectomy",
+                "start": 144,
+                "end": 166,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "T"
+            },
+            {
+                "text": "cervical adenocarcinoma",
+                "start": 82,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 14,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 14,
+                "head": 18,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 14,
+                "head": 21,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Of the 163 patients, 116 had preoperative serum CA125 levels, and 14 had pelvic lymph node metastasis.",
+        "tokens": [
+            {
+                "text": "pelvic",
+                "start": 73,
+                "end": 79,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "B"
+            },
+            {
+                "text": "lymph node metastasis",
+                "start": 80,
+                "end": 101,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "N"
+            },
+            {
+                "text": "lymph node metastasis",
+                "start": 80,
+                "end": 101,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 11,
+                "end": 19,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Patient or Disabled Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 16,
+                "head": 15,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 3,
+                "head": 16,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Parturition in the rat: a physiological pain model.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Finally, epidural morphine (30 microg/10 microl) in oxytocin treated rats, although resulting in no change of labor duration, significantly decreased the number of stretches (8 +/- 2 vs. 57 +/- 12 for epidural saline) and the number of c-Fos positive neurons in the lumbosacral spinal segments (80 +/- 25 vs. 165 +/- 17 for epidural saline).",
+        "tokens": [
+            {
+                "text": "oxytocin",
+                "start": 52,
+                "end": 60,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "rats",
+                "start": 69,
+                "end": 73,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "M"
+            },
+            {
+                "text": "morphine",
+                "start": 18,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "rats",
+                "start": 69,
+                "end": 73,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "M"
+            },
+            {
+                "text": "morphine",
+                "start": 18,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "labor duration",
+                "start": 110,
+                "end": 124,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "C"
+            },
+            {
+                "text": "lumbosacral spinal",
+                "start": 266,
+                "end": 284,
+                "token_start": 56,
+                "token_end": 57,
+                "entityLabel": "B"
+            },
+            {
+                "text": "neurons",
+                "start": 251,
+                "end": 258,
+                "token_start": 53,
+                "token_end": 53,
+                "entityLabel": "C"
+            },
+            {
+                "text": "neurons",
+                "start": 251,
+                "end": 258,
+                "token_start": 53,
+                "token_end": 53,
+                "entityLabel": "C"
+            },
+            {
+                "text": "c-Fos",
+                "start": 236,
+                "end": 241,
+                "token_start": 51,
+                "token_end": 53,
+                "entityLabel": "G"
+            },
+            {
+                "text": "morphine",
+                "start": 18,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "neurons",
+                "start": 251,
+                "end": 258,
+                "token_start": 53,
+                "token_end": 53,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 14,
+                "head": 12,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 14,
+                "head": 3,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 22,
+                "head": 3,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 53,
+                "head": 56,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 51,
+                "head": 53,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 53,
+                "head": 3,
+                "relationLabel": "DISRUPTS"
+            }
+        ]
+    }
+]
