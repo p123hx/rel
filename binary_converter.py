@@ -24,6 +24,8 @@ MAP_LABELS = {
 }
 
 ann = "./relations_training.txt"
+ann_dev = "./relations_dev.txt"
+ann_test = "./relations_test.txt"
 train_file='./relations_training.spacy'
 dev_file='./relations_dev.spacy'
 test_file='./relations_test.spacy'
@@ -68,7 +70,7 @@ def main(json_loc: Path, train_file: Path, dev_file: Path, test_file: Path):
                 entities.append(entity)
                 span_starts.add(span["token_start"])
 
-            doc.ents = filter_span(entities)
+            # doc.ents = filter_spans(entities)
 
             # Parse the relations
             rels = {}
@@ -122,3 +124,5 @@ def main(json_loc: Path, train_file: Path, dev_file: Path, test_file: Path):
 
 
 main(ann, train_file, dev_file, test_file)
+main(ann_test, test_file, dev_file, test_file)
+main(ann_dev, dev_file, dev_file, test_file)
