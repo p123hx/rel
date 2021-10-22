@@ -16,7 +16,7 @@ def tokenize_helper(text):
     return tokenLst
 def helper():
     skipped_count = 0
-    in_files = ["ori_dev.json", "ori_test.json", "ori_training.json"]
+    in_files = ["relations_dev.json", "relations_test.json", "relations_training.json"]
     out_files = ["relations_dev.txt", "relations_test.txt", "relations_training.txt"]
     for i in range(3):
         file = in_files[i]
@@ -34,6 +34,7 @@ def helper():
                 text = sentence["@text"]
                 dict_tmp["document"] = text
                 dict_tmp["tokens"], dict_tmp["relations"] = [], []
+                tokenset = set()
                 print("text: ",text)
                 # mytokens = nlp(text)
                 # tokenLst = [word.lemma_.lower().strip() for word in mytokens]
@@ -54,6 +55,7 @@ def helper():
                         continue
                     xjects = [token["subject"], token["object"]]
                     ts = []
+                    relationflag = True
                     for xject in xjects:
                         token_dict = {}
                         token_dict["text"], token_dict["start"] = xject["@text"], int(xject["@charoffset"])
@@ -79,13 +81,21 @@ def helper():
                         token_dict["token_end"] = token_dict["token_start"] + len(tLst_tmp) - 1
                         token_dict["entityLabel"] = xject["semantictypes"]["semantictype"][0]
                         #
-                        dict_tmp["tokens"].append(token_dict)
-
-                    rela_dict["child"] = ts[1]
-                    rela_dict["head"] = ts[0]
-                    rela_dict["relationLabel"] = token["predicate"]["@type"]
-                    #
-                    dict_tmp["relations"].append(rela_dict)
+                        flag= True
+                        print("dict_tmp[tokens]: ", dict_tmp["tokens"])
+                        currset = set(token_dict["text"].split())
+                        if (not (tokenset & currset)) or (not tokenset) or (not currset):
+                            dict_tmp["tokens"].append(token_dict)
+                            tokenset.update(currset)
+                        else:
+                            relationflag = False
+# @TODO: 1.Edge case: add tumor; then add tumor model => we still have both
+                    if relationflag:
+                        rela_dict["child"] = ts[1]
+                        rela_dict["head"] = ts[0]
+                        rela_dict["relationLabel"] = token["predicate"]["@type"]
+                        #
+                        dict_tmp["relations"].append(rela_dict)
                 out_array.append(dict_tmp)
         # with open(out_file, 'w') as json_file:
         #     json.dump(out_array, json_file)
@@ -109,7 +119,7 @@ def playground():
     # # Construction 2
     # from spacy.lang.en import English
     # nlp = English()
-    # # Create a Tokenizer with the default settings for English
+    # # Create a Tokenizer with the default asettings for English
     # # including punctuation rules and exceptions
     # tokenizer = nlp.tokenizer
     # print(tokenLst)

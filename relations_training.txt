@@ -1,5 +1,273 @@
 [
     {
+        "document": "Diffuse atherosclerosis entails a 15-30% risk of plaques on renal arteries (ARAS), with a correlation with coronary atherosclerosis.",
+        "tokens": [
+            {
+                "text": "renal arteries",
+                "start": 60,
+                "end": 74,
+                "token_start": 10,
+                "token_end": 11,
+                "entityLabel": "B"
+            },
+            {
+                "text": "plaques",
+                "start": 49,
+                "end": 56,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "F"
+            },
+            {
+                "text": "Diffuse atherosclerosis",
+                "start": 0,
+                "end": 23,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 10,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "In Turkey, a country with high incidence rates of goiter due to iodine deficiency, the frequency of mutations in the thyrotropin receptor signal transduction pathway has not been evaluated up to now.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "In conclusion, the frequency of mutations in the cAMP signal transduction pathway was found to be lower than expected in the Turkish population most likely because of the use of SSCP as a screening method and sequencing only a part of TSHR exon 10.",
+        "tokens": [
+            {
+                "text": "mutations",
+                "start": 32,
+                "end": 41,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "G"
+            },
+            {
+                "text": "signal transduction pathway",
+                "start": 54,
+                "end": 81,
+                "token_start": 10,
+                "token_end": 12,
+                "entityLabel": "Cell Function"
+            },
+            {
+                "text": "SSCP",
+                "start": 178,
+                "end": 182,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "L"
+            },
+            {
+                "text": "screening",
+                "start": 188,
+                "end": 197,
+                "token_start": 34,
+                "token_end": 34,
+                "entityLabel": "H"
+            },
+            {
+                "text": "exon",
+                "start": 240,
+                "end": 244,
+                "token_start": 43,
+                "token_end": 43,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "TSHR",
+                "start": 235,
+                "end": 239,
+                "token_start": 42,
+                "token_end": 42,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 10,
+                "head": 6,
+                "relationLabel": "COEXISTS_WITH"
+            },
+            {
+                "child": 34,
+                "head": 31,
+                "relationLabel": "METHOD_OF"
+            },
+            {
+                "child": 42,
+                "head": 43,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Extrapulmonary tuberculosis is presumably a marker of immunodeficiency, but cytokine responses have not been well studied in such patients.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "OBJECTIVE: Assess immune defects in persons with previous extrapulmonary tuberculosis.",
+        "tokens": [
+            {
+                "text": "immune defects",
+                "start": 18,
+                "end": 32,
+                "token_start": 3,
+                "token_end": 4,
+                "entityLabel": "P"
+            },
+            {
+                "text": "persons",
+                "start": 36,
+                "end": 43,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Population Group"
+            },
+            {
+                "text": "extrapulmonary tuberculosis",
+                "start": 58,
+                "end": 85,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 3,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: This study initially surveyed 163 patients with clinical stage Ib or IIa cervical adenocarcinoma treated with radical hysterectomy and pelvic lymphadenectomy.",
+        "tokens": [
+            {
+                "text": "cervical adenocarcinoma",
+                "start": 82,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 43,
+                "end": 51,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "radical hysterectomy",
+                "start": 119,
+                "end": 139,
+                "token_start": 18,
+                "token_end": 19,
+                "entityLabel": "T"
+            },
+            {
+                "text": "pelvic lymphadenectomy",
+                "start": 144,
+                "end": 166,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 14,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Of the 163 patients, 116 had preoperative serum CA125 levels, and 14 had pelvic lymph node metastasis.",
+        "tokens": [
+            {
+                "text": "pelvic",
+                "start": 73,
+                "end": 79,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "B"
+            },
+            {
+                "text": "lymph node metastasis",
+                "start": 80,
+                "end": 101,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 11,
+                "end": 19,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Patient or Disabled Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 16,
+                "head": 15,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "CONCLUSIONS: Infective endocarditis is a rare illness in children and represents a diagnostic challenge.",
+        "tokens": [
+            {
+                "text": "Infective endocarditis",
+                "start": 13,
+                "end": 35,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "illness",
+                "start": 46,
+                "end": 53,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "F"
+            },
+            {
+                "text": "children",
+                "start": 57,
+                "end": 65,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Age Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 2,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
         "document": "METHODS: A questionnaire was used to assess the impact of FDG PET scan on diagnosis, management and clinical decision-making processes for epilepsy surgery from the managing clinician's perspective.",
         "tokens": [
             {
@@ -68,14 +336,6 @@
                 "entityLabel": "H"
             },
             {
-                "text": "clinical management",
-                "start": 48,
-                "end": 67,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "H"
-            },
-            {
                 "text": "patients",
                 "start": 74,
                 "end": 82,
@@ -89,13 +349,590 @@
                 "child": 11,
                 "head": 0,
                 "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "Cystitis, urethritis and pyelonephritis in cattle most commonly result from ascending urinary tract infection with Corynebacterium renale, Corynebacterium cystidis, Corynebacterium pilosum or Escherichia coli.",
+        "tokens": [
+            {
+                "text": "Cystitis",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "D"
+            },
+            {
+                "text": "cattle",
+                "start": 43,
+                "end": 49,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "M"
+            },
+            {
+                "text": "urethritis",
+                "start": 10,
+                "end": 20,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "D"
+            },
+            {
+                "text": "pyelonephritis",
+                "start": 25,
+                "end": 39,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "D"
+            },
+            {
+                "text": "urinary tract infection",
+                "start": 86,
+                "end": 109,
+                "token_start": 12,
+                "token_end": 14,
+                "entityLabel": "D"
+            },
+            {
+                "text": "Corynebacterium renale",
+                "start": 115,
+                "end": 137,
+                "token_start": 16,
+                "token_end": 17,
+                "entityLabel": "B"
+            },
+            {
+                "text": "Escherichia coli",
+                "start": 192,
+                "end": 208,
+                "token_start": 25,
+                "token_end": 26,
+                "entityLabel": "B"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "We describe the clinical, bacteriological, clinical-pathological and epidemiological findings in a dairy cattle herd with urinary tract infection (UTI).",
+        "tokens": [
+            {
+                "text": "urinary tract infection",
+                "start": 122,
+                "end": 145,
+                "token_start": 17,
+                "token_end": 19,
+                "entityLabel": "D"
+            },
+            {
+                "text": "dairy cattle",
+                "start": 99,
+                "end": 111,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "M"
+            },
+            {
+                "text": "findings",
+                "start": 85,
+                "end": 93,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "S"
+            }
+        ],
+        "relations": [
+            {
+                "child": 13,
+                "head": 17,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "High MMP-1 mRNA expression is a risk factor for disease-free and overall survivals in patients with invasive breast carcinoma.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "MATERIALS AND METHODS: We assessed the prognostic value of MMP-1 mRNA expression in tumor tissue specimens from 85 breast carcinoma patients with a median follow-up time of 38 months (range, 2-48 months).",
+        "tokens": [
+            {
+                "text": "MMP-1",
+                "start": 59,
+                "end": 64,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "tissue specimens",
+                "start": 90,
+                "end": 106,
+                "token_start": 17,
+                "token_end": 18,
+                "entityLabel": "T"
+            },
+            {
+                "text": "tumor",
+                "start": 84,
+                "end": 89,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 132,
+                "end": 140,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "breast carcinoma",
+                "start": 115,
+                "end": 131,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "N"
+            },
+            {
+                "text": "mRNA expression",
+                "start": 65,
+                "end": 80,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "G"
+            }
+        ],
+        "relations": [
+            {
+                "child": 17,
+                "head": 10,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Apyrase/ATP-diphosphohydrolase hydrolyzes di- and triphosphorylated nucleosides in the presence of a bivalent ion with sequential release of orthophosphate.",
+        "tokens": [
+            {
+                "text": "Apyrase",
+                "start": 0,
+                "end": 7,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "nucleosides",
+                "start": 68,
+                "end": 79,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "N"
+            },
+            {
+                "text": "ATP-diphosphohydrolase",
+                "start": 8,
+                "end": 30,
+                "token_start": 2,
+                "token_end": 4,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "ion",
+                "start": 110,
+                "end": 113,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "E"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 0,
+                "relationLabel": "INTERACTS_WITH"
             },
             {
                 "child": 15,
-                "head": 11,
+                "head": 2,
+                "relationLabel": "COEXISTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "PLP nucleotide derivatives were unable to produce inactivation of potato apyrase.",
+        "tokens": [
+            {
+                "text": "nucleotide",
+                "start": 4,
+                "end": 14,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "N"
+            },
+            {
+                "text": "inactivation",
+                "start": 50,
+                "end": 62,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "C"
+            },
+            {
+                "text": "potato",
+                "start": 66,
+                "end": 72,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "P"
+            },
+            {
+                "text": "apyrase",
+                "start": 73,
+                "end": 80,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 1,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 10,
+                "head": 9,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Autogenic training for tension type headaches: a systematic review of controlled trials.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Further studies should investigate the use of standard autogenic training in patients with moderate headache.",
+        "tokens": [
+            {
+                "text": "autogenic training",
+                "start": 55,
+                "end": 73,
+                "token_start": 8,
+                "token_end": 9,
+                "entityLabel": "T"
+            },
+            {
+                "text": "patients",
+                "start": 77,
+                "end": 85,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "headache",
+                "start": 100,
+                "end": 108,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "S"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 8,
                 "relationLabel": "TREATS"
             }
         ]
+    },
+    {
+        "document": "Therefore, we investigated the effects of G-CSF administration on mobilization and functional activities of blood-derived EPC in patients with chronic ischemic heart disease (CIHD).",
+        "tokens": [
+            {
+                "text": "chronic ischemic heart disease",
+                "start": 143,
+                "end": 173,
+                "token_start": 20,
+                "token_end": 23,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 129,
+                "end": 137,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "G-CSF",
+                "start": 42,
+                "end": 47,
+                "token_start": 7,
+                "token_end": 9,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "EPC",
+                "start": 122,
+                "end": 125,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 18,
+                "head": 20,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 16,
+                "head": 7,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "METHODS AND RESULTS: Sixteen patients with CIHD received 10 microg/kg per day subcutaneous G-CSF injection for 5 days.",
+        "tokens": [
+            {
+                "text": "CIHD",
+                "start": 43,
+                "end": 47,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 29,
+                "end": 37,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "injection",
+                "start": 97,
+                "end": 106,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "T"
+            },
+            {
+                "text": "G-CSF",
+                "start": 91,
+                "end": 96,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 7,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "PARTICIPANTS: We studied women with regular cycles (n = 36) and women with PCOS (n = 8).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "CONCLUSIONS: These data demonstrate that inhibin A and inhibin B concentrations are significantly reduced in the follicular fluid of women with PCOS compared with those in the follicular fluid of size-matched follicles from normal women, consistent with the decreased inhibin subunit mRNA expression in previous studies.",
+        "tokens": [
+            {
+                "text": "follicular fluid",
+                "start": 113,
+                "end": 129,
+                "token_start": 17,
+                "token_end": 18,
+                "entityLabel": "B"
+            },
+            {
+                "text": "women",
+                "start": 133,
+                "end": 138,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "Population Group"
+            },
+            {
+                "text": "PCOS",
+                "start": 144,
+                "end": 148,
+                "token_start": 22,
+                "token_end": 22,
+                "entityLabel": "D"
+            },
+            {
+                "text": "inhibin B",
+                "start": 55,
+                "end": 64,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 20,
+                "head": 17,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "In vivo follow-up of rat tumor models with 2-deoxy-2-[F-18]fluoro-D-glucose/dual-head coincidence gamma camera imaging.",
+        "tokens": [
+            {
+                "text": "tumor",
+                "start": 25,
+                "end": 30,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "N"
+            },
+            {
+                "text": "rat",
+                "start": 21,
+                "end": 24,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "M"
+            },
+            {
+                "text": "2-deoxy-2-[F-18]fluoro-D-glucose",
+                "start": 43,
+                "end": 75,
+                "token_start": 8,
+                "token_end": 14,
+                "entityLabel": "D"
+            },
+            {
+                "text": "gamma camera imaging",
+                "start": 98,
+                "end": 118,
+                "token_start": 23,
+                "token_end": 25,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "follow-up",
+                "start": 8,
+                "end": 17,
+                "token_start": 2,
+                "token_end": 4,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 5,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 23,
+                "head": 8,
+                "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: Three different animal tumor models (osteosarcoma, melanoma, and breast cancer) were studied after FDG injection.",
+        "tokens": [
+            {
+                "text": "injection",
+                "start": 112,
+                "end": 121,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "T"
+            },
+            {
+                "text": "FDG",
+                "start": 108,
+                "end": 111,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "tumor",
+                "start": 32,
+                "end": 37,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "N"
+            },
+            {
+                "text": "osteosarcoma",
+                "start": 46,
+                "end": 58,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "N"
+            },
+            {
+                "text": "melanoma",
+                "start": 60,
+                "end": 68,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "N"
+            },
+            {
+                "text": "breast cancer",
+                "start": 74,
+                "end": 87,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 19,
+                "head": 20,
+                "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "Our data suggest that the three closely related fission yeast Rho-GEF molecules perform two distinct essential functions.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "CONCLUSION: The results we obtained with the mini-laparotomic incision are comparable to previous reports of the standard incision, also by our group, though with a lower need for postoperative analgesia.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "This laboratory experiment studied the effects of a thermal-insulating mouse pad on arm temperature and comfort during computer work.",
+        "tokens": [],
+        "relations": []
     },
     {
         "document": "The present study was designed to evaluate the effects of long-term use of aqueous extract of gutkha (a form of smokeless tobacco) on the antioxidant defense status and histopathological changes in liver, lung, and kidney of male Wistar rats.",
@@ -125,28 +962,12 @@
                 "entityLabel": "B"
             },
             {
-                "text": "Wistar rats",
-                "start": 230,
-                "end": 241,
-                "token_start": 41,
-                "token_end": 42,
-                "entityLabel": "M"
-            },
-            {
                 "text": "kidney",
                 "start": 215,
                 "end": 221,
                 "token_start": 38,
                 "token_end": 38,
                 "entityLabel": "B"
-            },
-            {
-                "text": "Wistar rats",
-                "start": 230,
-                "end": 241,
-                "token_start": 41,
-                "token_end": 42,
-                "entityLabel": "M"
             }
         ],
         "relations": [
@@ -154,21 +975,11 @@
                 "child": 41,
                 "head": 33,
                 "relationLabel": "PART_OF"
-            },
-            {
-                "child": 41,
-                "head": 35,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 41,
-                "head": 38,
-                "relationLabel": "PART_OF"
             }
         ]
     },
     {
-        "document": "Histopathological findings suggest that administration of AEST at the high dose for 2 weeks or at the low dose for 32 weeks could cause mild to moderate inflammation in liver and lungs.",
+        "document": "Histopathological findings suggest that administration of AEST at the high dose for 2 weeks or at the low dose for 32 weeks could cause mild to moderate inflammation in liver and lung.",
         "tokens": [
             {
                 "text": "AEST",
@@ -195,28 +1006,12 @@
                 "entityLabel": "B"
             },
             {
-                "text": "inflammation",
-                "start": 153,
-                "end": 165,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lungs",
+                "text": "lung",
                 "start": 179,
-                "end": 184,
+                "end": 183,
                 "token_start": 31,
                 "token_end": 31,
                 "entityLabel": "B"
-            },
-            {
-                "text": "inflammation",
-                "start": 153,
-                "end": 165,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "P"
             }
         ],
         "relations": [
@@ -224,399 +1019,281 @@
                 "child": 27,
                 "head": 6,
                 "relationLabel": "CAUSES"
-            },
-            {
-                "child": 27,
-                "head": 29,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 27,
-                "head": 31,
-                "relationLabel": "LOCATION_OF"
             }
         ]
     },
     {
-        "document": "In preterm lambs, intraamniotic endotoxin and interleukin 1 (IL-1) induce lung inflammation followed by lung maturation.",
-        "tokens": [
-            {
-                "text": "interleukin 1",
-                "start": 46,
-                "end": 59,
-                "token_start": 7,
-                "token_end": 8,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "endotoxin",
-                "start": 32,
-                "end": 41,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Carbohydrate"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "lambs",
-                "start": 11,
-                "end": 16,
-                "token_start": 2,
-                "token_end": 2,
-                "entityLabel": "M"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lambs",
-                "start": 11,
-                "end": 16,
-                "token_start": 2,
-                "token_end": 2,
-                "entityLabel": "M"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lung",
-                "start": 104,
-                "end": 108,
-                "token_start": 15,
-                "token_end": 15,
-                "entityLabel": "B"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            }
-        ],
-        "relations": [
-            {
-                "child": 15,
-                "head": 7,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 15,
-                "head": 5,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 2,
-                "head": 15,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 2,
-                "head": 20,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 15,
-                "head": 20,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 20,
-                "head": 15,
-                "relationLabel": "PRECEDES"
-            }
-        ]
-    },
-    {
-        "document": "METHODS: Lung inflammation was induced by intraamniotic injection of endotoxin or IL-1.",
-        "tokens": [
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "Lung inflammation",
-                "start": 9,
-                "end": 26,
-                "token_start": 2,
-                "token_end": 3,
-                "entityLabel": "D"
-            },
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "endotoxin",
-                "start": 69,
-                "end": 78,
-                "token_start": 10,
-                "token_end": 10,
-                "entityLabel": "Carbohydrate"
-            },
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "IL-1",
-                "start": 82,
-                "end": 86,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            }
-        ],
-        "relations": [
-            {
-                "child": 2,
-                "head": 8,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 10,
-                "head": 8,
-                "relationLabel": "USES"
-            },
-            {
-                "child": 12,
-                "head": 8,
-                "relationLabel": "USES"
-            }
-        ]
-    },
-    {
-        "document": "Our data suggest that the three closely related fission yeast Rho-GEF molecules perform two distinct essential functions.",
+        "document": "Recent applications of CAbs with clinical significance include the conversion of cocaine to a non-psychoactive form, the degradation of nicotine, activation of prodrugs for targeted chemotherapy, protection from ultraviolet radiation, inhibition of HIV infectivity, and the destruction of aggregates of beta-amyloid implicated in Alzheimer's disease.",
         "tokens": [],
         "relations": []
     },
     {
-        "document": "The interventions investigated were: antibiotics (4); home versus hospital administration of antibiotics (1); steroids (1); mucolytic therapies (6); exercise (3) and pancreatic enzymes (1).",
+        "document": "Kinetic studies on NF-kappaB-DNA interaction indicate that the diterpenoids decrease the B(max app) but have no effect on K(d app).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "This suggests that this class of compounds interacts with both p65 and p50 subunits at a site other than the DNA binding site and subsequently modulates the binding affinity of the transcription factor toward DNA with different NF-kappaB binding sequences.",
         "tokens": [
             {
-                "text": "antibiotics",
-                "start": 37,
-                "end": 48,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "A"
+                "text": "compounds",
+                "start": 33,
+                "end": 42,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "C"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "steroids",
-                "start": 110,
-                "end": 118,
-                "token_start": 18,
-                "token_end": 18,
-                "entityLabel": "S"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "administration",
-                "start": 75,
-                "end": 89,
+                "text": "p50",
+                "start": 71,
+                "end": 74,
                 "token_start": 12,
                 "token_end": 12,
-                "entityLabel": "T"
+                "entityLabel": "G"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "therapies",
-                "start": 134,
-                "end": 143,
-                "token_start": 23,
-                "token_end": 23,
-                "entityLabel": "T"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "therapies",
-                "start": 134,
-                "end": 143,
-                "token_start": 23,
-                "token_end": 23,
-                "entityLabel": "T"
-            },
-            {
-                "text": "mucolytic",
-                "start": 124,
-                "end": 133,
-                "token_start": 22,
-                "token_end": 22,
-                "entityLabel": "Organic Chemical"
-            },
-            {
-                "text": "exercise",
-                "start": 149,
-                "end": 157,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "D"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "antibiotics",
-                "start": 93,
-                "end": 104,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "A"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "pancreatic enzymes",
-                "start": 166,
-                "end": 184,
-                "token_start": 32,
-                "token_end": 33,
+                "text": "transcription factor",
+                "start": 181,
+                "end": 201,
+                "token_start": 31,
+                "token_end": 32,
                 "entityLabel": "Amino Acid, Peptide, or Protein"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
+                "text": "p65",
+                "start": 63,
+                "end": 66,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
             }
         ],
         "relations": [
             {
-                "child": 1,
-                "head": 5,
-                "relationLabel": "ISA"
+                "child": 12,
+                "head": 6,
+                "relationLabel": "INTERACTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "This study investigated the effect of peritoneal lavage with oxygenated PFC (O2-PFC) against hemorrhagic shock and resuscitation (HS/R).",
+        "tokens": [
+            {
+                "text": "peritoneal lavage",
+                "start": 38,
+                "end": 55,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "Diagnostic Procedure"
             },
             {
-                "child": 1,
-                "head": 18,
-                "relationLabel": "ISA"
+                "text": "oxygenated PFC",
+                "start": 61,
+                "end": 75,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "Organic Chemical"
             },
             {
-                "child": 1,
-                "head": 12,
-                "relationLabel": "ISA"
-            },
+                "text": "hemorrhagic shock",
+                "start": 93,
+                "end": 110,
+                "token_start": 17,
+                "token_end": 18,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
             {
-                "child": 1,
-                "head": 23,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 22,
-                "head": 23,
+                "child": 9,
+                "head": 6,
                 "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "We conclude that treatment with O2-PFC lavage ameliorated HS/R-induced metabolic acidosis and intestinal damage, which was associated with better mortality, possibly by preserving microvascular perfusion and maintaining oxygen metabolism.",
+        "tokens": [
+            {
+                "text": "lavage",
+                "start": 39,
+                "end": 45,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
             },
             {
-                "child": 1,
-                "head": 27,
-                "relationLabel": "ISA"
+                "text": "metabolic acidosis",
+                "start": 71,
+                "end": 89,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "P"
             },
             {
-                "child": 1,
-                "head": 5,
-                "relationLabel": "ISA"
+                "text": "O2-PFC",
+                "start": 32,
+                "end": 38,
+                "token_start": 5,
+                "token_end": 7,
+                "entityLabel": "Organic Chemical"
             },
             {
-                "child": 1,
-                "head": 32,
-                "relationLabel": "ISA"
+                "text": "damage",
+                "start": 105,
+                "end": 111,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "I"
+            },
+            {
+                "text": "intestinal",
+                "start": 94,
+                "end": 104,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "B"
+            },
+            {
+                "text": "HS/R",
+                "start": 58,
+                "end": 62,
+                "token_start": 10,
+                "token_end": 12,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 13,
+                "head": 8,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Veratridine depolarises neurons consequently causing epithelial anion secretion across mouse colon mucosa.",
+        "tokens": [
+            {
+                "text": "Veratridine",
+                "start": 0,
+                "end": 11,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "secretion",
+                "start": 70,
+                "end": 79,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "B"
+            },
+            {
+                "text": "neurons",
+                "start": 24,
+                "end": 31,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "C"
+            },
+            {
+                "text": "colon mucosa",
+                "start": 93,
+                "end": 105,
+                "token_start": 10,
+                "token_end": 11,
+                "entityLabel": "B"
+            },
+            {
+                "text": "mouse",
+                "start": 87,
+                "end": 92,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 0,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "The enhanced veratridine response observed in +/+ tissue following BIIE0246, indicates that Y(2) receptors are located on submucosal neurons and that their activation by NPY will inhibit enteric noncholinergic secretory neurotransmission.",
+        "tokens": [
+            {
+                "text": "NPY",
+                "start": 170,
+                "end": 173,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "neurotransmission",
+                "start": 220,
+                "end": 237,
+                "token_start": 37,
+                "token_end": 37,
+                "entityLabel": "C"
+            },
+            {
+                "text": "Y(2) receptors",
+                "start": 92,
+                "end": 106,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "neurons",
+                "start": 133,
+                "end": 140,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "C"
+            },
+            {
+                "text": "submucosal",
+                "start": 122,
+                "end": 132,
+                "token_start": 24,
+                "token_end": 24,
+                "entityLabel": "T"
+            },
+            {
+                "text": "veratridine",
+                "start": 13,
+                "end": 24,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "tissue",
+                "start": 50,
+                "end": 56,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 37,
+                "head": 31,
+                "relationLabel": "DISRUPTS"
+            },
+            {
+                "child": 9,
+                "head": 2,
+                "relationLabel": "AFFECTS"
             }
         ]
     },
@@ -638,30 +1315,9 @@
                 "token_start": 9,
                 "token_end": 11,
                 "entityLabel": "D"
-            },
-            {
-                "text": "Anterior uveitis",
-                "start": 0,
-                "end": 16,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "F"
-            },
-            {
-                "text": "Langerhans cell histiocytosis",
-                "start": 59,
-                "end": 88,
-                "token_start": 9,
-                "token_end": 11,
-                "entityLabel": "D"
             }
         ],
         "relations": [
-            {
-                "child": 9,
-                "head": 0,
-                "relationLabel": "COEXISTS_WITH"
-            },
             {
                 "child": 9,
                 "head": 0,
@@ -697,60 +1353,12 @@
                 "entityLabel": "F"
             },
             {
-                "text": "patient",
-                "start": 29,
-                "end": 36,
-                "token_start": 7,
-                "token_end": 7,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
                 "text": "topical corticosteroids",
                 "start": 191,
                 "end": 214,
                 "token_start": 32,
                 "token_end": 33,
                 "entityLabel": "P"
-            },
-            {
-                "text": "patient",
-                "start": 29,
-                "end": 36,
-                "token_start": 7,
-                "token_end": 7,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "topical corticosteroids",
-                "start": 191,
-                "end": 214,
-                "token_start": 32,
-                "token_end": 33,
-                "entityLabel": "P"
-            },
-            {
-                "text": "inflammation",
-                "start": 70,
-                "end": 82,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "P"
-            },
-            {
-                "text": "topical corticosteroids",
-                "start": 191,
-                "end": 214,
-                "token_start": 32,
-                "token_end": 33,
-                "entityLabel": "P"
-            },
-            {
-                "text": "iris nodules",
-                "start": 87,
-                "end": 99,
-                "token_start": 14,
-                "token_end": 15,
-                "entityLabel": "F"
             }
         ],
         "relations": [
@@ -758,26 +1366,3667 @@
                 "child": 7,
                 "head": 12,
                 "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "It was suggested that individuals seroconverting later in calendar time were more likely to have TDR (relative risk 3.89 and 95% CI: 0.84 to 18.02, and relative risk 4.69 and 95% CI: 1.03 to 21.31, for 1996-1999 and 2000-2003, respectively, compared with pre-1996; P trend = 0.08).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "The total estimated proportion of individuals with TDR varied between 10.3% and 15.5% according to which definition was used.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "There were 54 trauma and 83 non-trauma patients.",
+        "tokens": [
+            {
+                "text": "trauma",
+                "start": 14,
+                "end": 20,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "I"
             },
             {
+                "text": "patients",
+                "start": 39,
+                "end": 47,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "non-trauma",
+                "start": 28,
+                "end": 38,
+                "token_start": 6,
+                "token_end": 8,
+                "entityLabel": "I"
+            }
+        ],
+        "relations": [
+            {
                 "child": 7,
-                "head": 14,
+                "head": 3,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "In HIV-positive surgical patients, CD4 counts have no relation to in-hospital outcome in a heterogeneous group of surgical patients.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "In women, fat mass in % explained the highest percentage of the variability of circulating acute-phase proteins (18.2% for CRP, 7.2% for SAA, 6.1% for FIB, all p-values &lt; 0.001), whereas in men, WHR explained the highest percentage of the variability (6.2% for CRP, 2.3% for SAA, 1.8% for FIB, all p-values &lt; 0.001).",
+        "tokens": [
+            {
+                "text": "CRP",
+                "start": 123,
+                "end": 126,
+                "token_start": 22,
+                "token_end": 22,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "acute-phase proteins",
+                "start": 91,
+                "end": 111,
+                "token_start": 16,
+                "token_end": 19,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "SAA",
+                "start": 137,
+                "end": 140,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "FIB",
+                "start": 151,
+                "end": 154,
+                "token_start": 32,
+                "token_end": 32,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 16,
+                "head": 22,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "CT pulmonary angiography is the first-line imaging test for acute pulmonary embolism: a survey of US clinicians.",
+        "tokens": [
+            {
+                "text": "pulmonary angiography",
+                "start": 3,
+                "end": 24,
+                "token_start": 1,
+                "token_end": 2,
+                "entityLabel": "D"
+            },
+            {
+                "text": "imaging test",
+                "start": 43,
+                "end": 55,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 1,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "RATIONALE AND OBJECTIVES: Our aim is to document current imaging practices for diagnosing acute pulmonary embolism (PE) among physicians practicing in the United States and explore factors associated with these practices.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Patients with higher serum phosphorus (P) (group A: P &gt; or = 7 mg/dl) were compared with those with lower serum P levels (group B: P &lt; 7 mg/dl).",
+        "tokens": [
+            {
+                "text": "serum",
+                "start": 21,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "B"
+            },
+            {
+                "text": "phosphorus",
+                "start": 27,
+                "end": 37,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "Patients",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "P",
+                "start": 112,
+                "end": 113,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Element, Ion, or Isotope"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 3,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "The present study evaluated soluble plasma osteopontin in 32 patients with echocardiographically determined rheumatic mitral stenosis and compared the results to those of a control group of 22 healthy patients.",
+        "tokens": [
+            {
+                "text": "rheumatic mitral stenosis",
+                "start": 108,
+                "end": 133,
+                "token_start": 13,
+                "token_end": 15,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 61,
+                "end": 69,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "echocardiographically",
+                "start": 75,
+                "end": 96,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "D"
+            },
+            {
+                "text": "plasma",
+                "start": 36,
+                "end": 42,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "B"
+            },
+            {
+                "text": "osteopontin",
+                "start": 43,
+                "end": 54,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 13,
                 "relationLabel": "PROCESS_OF"
             },
             {
-                "child": 7,
-                "head": 32,
-                "relationLabel": "TREATS"
+                "child": 6,
+                "head": 5,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Elevated levels of high-sensitivity C-reactive protein concentrations suggest the presence of ongoing inflammation in those patients.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Cadmium and lead contamination in japonica rice grains and its variation among the different locations in southeast China.",
+        "tokens": [
+            {
+                "text": "lead",
+                "start": 12,
+                "end": 16,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "P"
             },
+            {
+                "text": "rice grains",
+                "start": 43,
+                "end": 54,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "Cadmium",
+                "start": 0,
+                "end": 7,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 2,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "On the basis of a large-scale survey with 269 sampling sites and a field experiment with 12 cultivars grown at 3 ecologically different locations, Cadmium (Cd) and lead (Pb) contamination in milled rice grains and its variation among different locations were investigated in the area of southeast China.",
+        "tokens": [
+            {
+                "text": "Cadmium (Cd)",
+                "start": 147,
+                "end": 159,
+                "token_start": 25,
+                "token_end": 28,
+                "entityLabel": "P"
+            },
+            {
+                "text": "rice",
+                "start": 198,
+                "end": 202,
+                "token_start": 37,
+                "token_end": 37,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "lead (Pb)",
+                "start": 164,
+                "end": 173,
+                "token_start": 30,
+                "token_end": 33,
+                "entityLabel": "P"
+            },
+            {
+                "text": "sampling site",
+                "start": 46,
+                "end": 59,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "S"
+            },
+            {
+                "text": "survey",
+                "start": 30,
+                "end": 36,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "R"
+            },
+            {
+                "text": "grains",
+                "start": 203,
+                "end": 209,
+                "token_start": 38,
+                "token_end": 38,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 37,
+                "head": 25,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 6,
+                "head": 9,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Two applications of moxidectin completely prevented pre-natal and lactogenic infections in the puppies.",
+        "tokens": [
+            {
+                "text": "infections",
+                "start": 77,
+                "end": 87,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "D"
+            },
+            {
+                "text": "puppies",
+                "start": 95,
+                "end": 102,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "M"
+            },
+            {
+                "text": "moxidectin",
+                "start": 20,
+                "end": 30,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Antibiotic"
+            }
+        ],
+        "relations": [
             {
                 "child": 12,
+                "head": 9,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Nicotine induces conditioned place preferences over a large range of doses in rats.",
+        "tokens": [
+            {
+                "text": "Nicotine",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Hazardous or Poisonous Substance"
+            },
+            {
+                "text": "conditioned place preferences",
+                "start": 17,
+                "end": 46,
+                "token_start": 2,
+                "token_end": 4,
+                "entityLabel": "M"
+            },
+            {
+                "text": "rats",
+                "start": 78,
+                "end": 82,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 0,
+                "relationLabel": "AUGMENTS"
+            }
+        ]
+    },
+    {
+        "document": "Treatment of refractory pseudomonas aeruginosa exit-site infection by simultaneous removal and reinsertion of peritoneal dialysis catheter.",
+        "tokens": [
+            {
+                "text": "removal and reinsertion of peritoneal dialysis catheter",
+                "start": 83,
+                "end": 138,
+                "token_start": 9,
+                "token_end": 15,
+                "entityLabel": "T"
+            },
+            {
+                "text": "pseudomonas aeruginosa exit-site infection",
+                "start": 24,
+                "end": 66,
+                "token_start": 3,
+                "token_end": 8,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 9,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "RESULTS: Over a 10-year period, 37 CAPD patients underwent the operation.",
+        "tokens": [
+            {
+                "text": "CAPD",
+                "start": 35,
+                "end": 39,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "T"
+            },
+            {
+                "text": "patients",
+                "start": 40,
+                "end": 48,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "operation",
+                "start": 63,
+                "end": 72,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 10,
+                "relationLabel": "ADMINISTERED_TO"
+            }
+        ]
+    },
+    {
+        "document": "This clinical review article is intended to analyze the outcome of management of a group of 22 ACC patients, who were treated in our clinic.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "CONCLUSIONS: The most proper method of treatment for ACC seems to be radical resection combined with radiotherapy.",
+        "tokens": [
+            {
+                "text": "resection",
+                "start": 77,
+                "end": 86,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "T"
+            },
+            {
+                "text": "radiotherapy",
+                "start": 101,
+                "end": 113,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "T"
+            },
+            {
+                "text": "treatment",
+                "start": 39,
+                "end": 48,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "T"
+            },
+            {
+                "text": "ACC",
+                "start": 53,
+                "end": 56,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 17,
+                "head": 14,
+                "relationLabel": "COEXISTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "The interventions investigated were: antibiotics (4); home versus hospital administration of antibiotics (1); steroids (1); mucolytic therapies (6); exercise (3) and pancreatic enzymes (1).",
+        "tokens": [
+            {
+                "text": "antibiotics",
+                "start": 37,
+                "end": 48,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "A"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "steroids",
+                "start": 110,
+                "end": 118,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "S"
+            },
+            {
+                "text": "administration",
+                "start": 75,
+                "end": 89,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "T"
+            },
+            {
+                "text": "therapies",
+                "start": 134,
+                "end": 143,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "T"
+            },
+            {
+                "text": "mucolytic",
+                "start": 124,
+                "end": 133,
+                "token_start": 22,
+                "token_end": 22,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "exercise",
+                "start": 149,
+                "end": 157,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "D"
+            },
+            {
+                "text": "pancreatic enzymes",
+                "start": 166,
+                "end": 184,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 1,
+                "head": 5,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "We used this procedure concomitantly with valve surgery in 84 patients.",
+        "tokens": [
+            {
+                "text": "procedure",
+                "start": 13,
+                "end": 22,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "H"
+            },
+            {
+                "text": "patients",
+                "start": 62,
+                "end": 70,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "surgery",
+                "start": 48,
+                "end": 55,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 10,
+                "head": 3,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Reactive oxygen species formation and release of pro-inflammatory/pro-atherogenic cytokines, that is, interleukin 1-beta and tumor necrosis factor-alpha, need the activation of the arachidonic acid cascade via the enzyme 5-lipoxygenase (5-Lox).",
+        "tokens": [
+            {
+                "text": "interleukin 1-beta",
+                "start": 102,
+                "end": 120,
+                "token_start": 15,
+                "token_end": 18,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "cytokines",
+                "start": 82,
+                "end": 91,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "tumor necrosis factor-alpha",
+                "start": 125,
+                "end": 152,
+                "token_start": 20,
+                "token_end": 24,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "5-lipoxygenase",
+                "start": 221,
+                "end": 235,
+                "token_start": 35,
+                "token_end": 37,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "enzyme",
+                "start": 214,
+                "end": 220,
+                "token_start": 34,
+                "token_end": 34,
+                "entityLabel": "Enzyme"
+            },
+            {
+                "text": "arachidonic acid",
+                "start": 181,
+                "end": 197,
+                "token_start": 29,
+                "token_end": 30,
+                "entityLabel": "E"
+            }
+        ],
+        "relations": [
+            {
+                "child": 10,
+                "head": 15,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 34,
+                "head": 35,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "Omega-3 may thus protect PBMCs of ESRD patients against oxidative stress.",
+        "tokens": [
+            {
+                "text": "ESRD",
+                "start": 34,
+                "end": 38,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 39,
+                "end": 47,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "PBMCs",
+                "start": 25,
+                "end": 30,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "C"
+            },
+            {
+                "text": "Omega-3",
+                "start": 0,
+                "end": 7,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "oxidative stress",
+                "start": 56,
+                "end": 72,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 8,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 11,
+                "head": 0,
+                "relationLabel": "PREVENTS"
+            }
+        ]
+    },
+    {
+        "document": "Although the medical management of SLE is not sufficient to warrant long-term survival of young patients, recent progress in anti-cytokine biologics therapy against rheumatoid arthritis (RA) has facilitated searching for the molecular targets of SLE.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "In this report, we briefly review the molecular basis of SLE pathogenesis, and discuss possible therapeutic targets in this disease, focusing particularly on signal transduction and adhesion molecules in T cells.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Manometry showed a higher anal sphincter resting pressure and a lower critical volume in food intolerance patients than in the others suffering from constipation unrelated to food intolerance.",
+        "tokens": [
+            {
+                "text": "Manometry",
+                "start": 0,
+                "end": 9,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "L"
+            },
+            {
+                "text": "anal sphincter resting pressure",
+                "start": 26,
+                "end": 57,
+                "token_start": 4,
+                "token_end": 7,
+                "entityLabel": "F"
+            },
+            {
+                "text": "food intolerance",
+                "start": 89,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "S"
+            },
+            {
+                "text": "patients",
+                "start": 106,
+                "end": 114,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "constipation",
+                "start": 149,
+                "end": 161,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "S"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 0,
+                "relationLabel": "DIAGNOSES"
+            },
+            {
+                "child": 16,
+                "head": 14,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "CONCLUSIONS: Food intolerance-related constipation is characterized by proctitis.",
+        "tokens": [
+            {
+                "text": "Food intolerance",
+                "start": 13,
+                "end": 29,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "S"
+            },
+            {
+                "text": "constipation",
+                "start": 38,
+                "end": 50,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "S"
+            },
+            {
+                "text": "proctitis",
+                "start": 71,
+                "end": 80,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 2,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: Nine patients with ALS were randomly assigned to receive either a high dose (3 microg/kg of body weight) or low dose (0.5 microg/kg of body weight) of IGF-1 every 2 weeks for 40 weeks.",
+        "tokens": [
+            {
+                "text": "ALS",
+                "start": 28,
+                "end": 31,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 14,
+                "end": 22,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "IGF-1",
+                "start": 160,
+                "end": 165,
+                "token_start": 37,
+                "token_end": 37,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 5,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "RESULTS: The high-dose treatment slowed a decline of motor functions of the ALS patients in total Norris and limb Norris scales, but not in bulbar Norris or vital capacity.",
+        "tokens": [
+            {
+                "text": "ALS",
+                "start": 76,
+                "end": 79,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 80,
+                "end": 88,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "treatment",
+                "start": 23,
+                "end": 32,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "T"
+            },
+            {
+                "text": "motor functions",
+                "start": 53,
+                "end": 68,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 14,
+                "head": 13,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 9,
+                "head": 4,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "Phenotype of early cardiomyopathic changes induced by active immunization of rats with a synthetic peptide corresponding to the second extracellular loop of the human beta-adrenergic receptor.",
+        "tokens": [
+            {
+                "text": "active immunization",
+                "start": 54,
+                "end": 73,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "T"
+            },
+            {
+                "text": "cardiomyopathic",
+                "start": 19,
+                "end": 34,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "synthetic peptide",
+                "start": 89,
+                "end": 106,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "A"
+            },
+            {
+                "text": "rats",
+                "start": 77,
+                "end": 81,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "M"
+            },
+            {
+                "text": "beta-adrenergic receptor",
+                "start": 167,
+                "end": 191,
+                "token_start": 24,
+                "token_end": 27,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "human",
+                "start": 161,
+                "end": 166,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 7,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 10,
+                "head": 13,
+                "relationLabel": "ADMINISTERED_TO"
+            }
+        ]
+    },
+    {
+        "document": "In the failing human heart, due to idiopathic dilated cardiomyopathy, it has been suggested that the beta1-adrenergic receptor (beta1AR) is a potential pathogenic autoantigen.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Cohort studies have consistently shown underground miners exposed to high levels of radon to be at excess risk of lung cancer, and extrapolations based on those results indicate that residential radon may be responsible for nearly 10-15% of all lung cancer deaths per year in the United States.",
+        "tokens": [
+            {
+                "text": "radon",
+                "start": 84,
+                "end": 89,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Element, Ion, or Isotope"
+            },
+            {
+                "text": "lung cancer",
+                "start": 114,
+                "end": 125,
+                "token_start": 19,
+                "token_end": 20,
+                "entityLabel": "N"
+            },
+            {
+                "text": "deaths",
+                "start": 257,
+                "end": 263,
+                "token_start": 43,
+                "token_end": 43,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 19,
+                "head": 12,
+                "relationLabel": "PREDISPOSES"
+            }
+        ]
+    },
+    {
+        "document": "The possibility that a demonstrated lung carcinogen may be present in large numbers of homes raises a serious public health concern.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "The placental isozyme (PLAP) is an oncofetal antigen expressed in several malignancies including choriocarcinoma, seminoma and ovarian carcinoma.",
+        "tokens": [
+            {
+                "text": "choriocarcinoma",
+                "start": 97,
+                "end": 112,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "N"
+            },
+            {
+                "text": "malignancies",
+                "start": 74,
+                "end": 86,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "N"
+            },
+            {
+                "text": "seminoma",
+                "start": 114,
+                "end": 122,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "N"
+            },
+            {
+                "text": "ovarian carcinoma",
+                "start": 127,
+                "end": 144,
+                "token_start": 19,
+                "token_end": 20,
+                "entityLabel": "N"
+            },
+            {
+                "text": "placental isozyme",
+                "start": 4,
+                "end": 21,
+                "token_start": 1,
+                "token_end": 2,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "oncofetal antigen",
+                "start": 35,
+                "end": 52,
+                "token_start": 8,
+                "token_end": 9,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 13,
+                "head": 15,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 8,
+                "head": 1,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "However, plasma nitrite is readily oxidized to nitrate within plasma, and thus its utility as a marker of NO production within the clinical setting may be limited.",
+        "tokens": [
+            {
+                "text": "plasma",
+                "start": 62,
+                "end": 68,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "B"
+            },
+            {
+                "text": "nitrate",
+                "start": 47,
+                "end": 54,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "I"
+            },
+            {
+                "text": "nitrite",
+                "start": 16,
+                "end": 23,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 2,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Alternatively, NOx (predominantly nitrate) is relatively stable in plasma (microM concentrations), but is produced by sources other than the vasculature and has been shown to be unsuitable as a measure of localized NO production.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "We report on febrile episodes occurring among 379 patients affected by chronic lymphocytic leukemia, observed from 1984 to 2002.",
+        "tokens": [
+            {
+                "text": "chronic lymphocytic leukemia",
+                "start": 71,
+                "end": 99,
+                "token_start": 11,
+                "token_end": 13,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 50,
+                "end": 58,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "febrile",
+                "start": 13,
+                "end": 20,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 11,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "One hundred and twenty eight patients (33.7%) developed 341 febrile episodes, of which 251 were documented infections (82 severe and 169 moderate).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "High grade primary breast lymphoma: is it a different clinical entity?",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Primary lymphoma of the breast (PBL) is a rare neoplasm, its outcome remains unclear compared to other lymphomas.",
+        "tokens": [
+            {
+                "text": "lymphoma",
+                "start": 8,
+                "end": 16,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "N"
+            },
+            {
+                "text": "neoplasm",
+                "start": 47,
+                "end": 55,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "N"
+            },
+            {
+                "text": "breast",
+                "start": 24,
+                "end": 30,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "B"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 1,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "In the cells of CHO and bone marrow treated with aloe, glutathione (GSH) levels were shown to be higher and extracellular discharge rate increased as incubation time with aloe rose.",
+        "tokens": [
+            {
+                "text": "CHO",
+                "start": 16,
+                "end": 19,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "B"
+            },
+            {
+                "text": "cells",
+                "start": 7,
+                "end": 12,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "C"
+            },
+            {
+                "text": "bone marrow",
+                "start": 24,
+                "end": 35,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "B"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "document": "MDR1 and MRP2 gene were more expressed in Hepa c cells than in NTCC cells, but there was no change in BCRP gene expression.",
+        "tokens": [
+            {
+                "text": "cells",
+                "start": 49,
+                "end": 54,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "MDR1",
+                "start": 0,
+                "end": 4,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "MRP2",
+                "start": 9,
+                "end": 13,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 12,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "The count of dead adults and larvae did not show any differences between the treatments, whereas the measurement of sugar water consumption was shown to correlate well with pollination.",
+        "tokens": [
+            {
+                "text": "sugar water consumption",
+                "start": 116,
+                "end": 139,
+                "token_start": 20,
+                "token_end": 22,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "pollination",
+                "start": 173,
+                "end": 184,
+                "token_start": 29,
+                "token_end": 29,
+                "entityLabel": "O"
+            },
+            {
+                "text": "dead",
+                "start": 13,
+                "end": 17,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "F"
+            },
+            {
+                "text": "adults",
+                "start": 18,
+                "end": 24,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Age Group"
+            },
+            {
+                "text": "larvae",
+                "start": 29,
+                "end": 35,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "I"
+            }
+        ],
+        "relations": [
+            {
+                "child": 29,
+                "head": 20,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 4,
+                "head": 3,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Guillain-Barre syndrome (GBS) and chronic inflammatory demyelinating poly-(radiculo)neuropathy (CIDP) are immune-mediated disorders with a variable duration of progression and a range in severity of weakness.",
+        "tokens": [
+            {
+                "text": "Guillain-Barre syndrome",
+                "start": 0,
+                "end": 23,
+                "token_start": 0,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "immune-mediated disorders",
+                "start": 106,
+                "end": 131,
+                "token_start": 19,
+                "token_end": 22,
+                "entityLabel": "D"
+            },
+            {
+                "text": "CIDP",
+                "start": 96,
+                "end": 100,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 19,
+                "head": 0,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "Infections can trigger GBS and exacerbate CIDP.",
+        "tokens": [
+            {
+                "text": "Infections",
+                "start": 0,
+                "end": 10,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "D"
+            },
+            {
+                "text": "GBS",
+                "start": 23,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "CIDP",
+                "start": 42,
+                "end": 46,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 0,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "Many resident and immigrant inflammatory cells, including intraepithelial neutrophils, were IL-8 receptor A positive.",
+        "tokens": [
+            {
+                "text": "intraepithelial",
+                "start": 58,
+                "end": 73,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "S"
+            },
+            {
+                "text": "neutrophils",
+                "start": 74,
+                "end": 85,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "C"
+            },
+            {
+                "text": "inflammatory cells",
+                "start": 28,
+                "end": 46,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 8,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "APL patients carrying these mutations display resistance to retinoic acid (RA) and very poor prognosis.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Mut PML interacts with PML-RARalpha in PML-CB and potentiates PML-RARalpha-mediated inhibition of RA dependent transcription.",
+        "tokens": [
+            {
+                "text": "PML",
+                "start": 4,
+                "end": 7,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "G"
+            },
+            {
+                "text": "PML-RARalpha",
+                "start": 23,
+                "end": 35,
+                "token_start": 4,
+                "token_end": 6,
+                "entityLabel": "A"
+            },
+            {
+                "text": "transcription",
+                "start": 111,
+                "end": 124,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "G"
+            },
+            {
+                "text": "RA",
+                "start": 98,
+                "end": 100,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Organic Chemical"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 1,
+                "relationLabel": "INTERACTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "The emerging family of hepatoblastoma tumours: from ontogenesis to oncogenesis.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Furthermore, an impressive amount of molecular biological information on liver ontogenesis and growth regulation of hepatic tumours has recently accumulated, which will allow the development of a comprehensive classification system with particular emphasis on prognostics.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "METHODS: Primary HCC patients who underwent tumor resection were retrospectively analyzed.",
+        "tokens": [
+            {
+                "text": "Primary HCC",
+                "start": 9,
+                "end": 20,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 21,
+                "end": 29,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "resection",
+                "start": 50,
+                "end": 59,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 2,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "CONCLUSION: The expressions of c-Myc, Ki-67, MMP-2 and VEGF in cancer tissues of the patients are related to the recurrence of their HCC after tumor resection.",
+        "tokens": [
+            {
+                "text": "tissues",
+                "start": 70,
+                "end": 77,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "T"
+            },
+            {
+                "text": "cancer",
+                "start": 63,
+                "end": 69,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "N"
+            },
+            {
+                "text": "MMP-2",
+                "start": 45,
+                "end": 50,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "Ki-67",
+                "start": 38,
+                "end": 43,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "VEGF",
+                "start": 55,
+                "end": 59,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "c-Myc",
+                "start": 31,
+                "end": 36,
+                "token_start": 5,
+                "token_end": 7,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "resection",
+                "start": 149,
+                "end": 158,
+                "token_start": 32,
+                "token_end": 32,
+                "entityLabel": "T"
+            },
+            {
+                "text": "tumor",
+                "start": 143,
+                "end": 148,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "N"
+            },
+            {
+                "text": "HCC",
+                "start": 133,
+                "end": 136,
+                "token_start": 29,
+                "token_end": 29,
+                "entityLabel": "N"
+            },
+            {
+                "text": "their",
+                "start": 127,
+                "end": 132,
+                "token_start": 28,
+                "token_end": 28,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 17,
+                "head": 18,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 31,
                 "head": 32,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Splenic lymphocytes or purified B-cells obtained from BALB/c mice were cultured with various combinations of IL-4, anti-CD40 antibody, and PAM-extract for 7 days.",
+        "tokens": [
+            {
+                "text": "lymphocytes",
+                "start": 8,
+                "end": 19,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "C"
+            },
+            {
+                "text": "Splenic",
+                "start": 0,
+                "end": 7,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "B"
+            },
+            {
+                "text": "B-cells",
+                "start": 32,
+                "end": 39,
+                "token_start": 4,
+                "token_end": 6,
+                "entityLabel": "C"
+            },
+            {
+                "text": "BALB/c mice",
+                "start": 54,
+                "end": 65,
+                "token_start": 7,
+                "token_end": 10,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 1,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 7,
+                "head": 4,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "BAP31 and its caspase cleavage product regulate cell surface expression of tetraspanins and integrin mediated cell survival.",
+        "tokens": [
+            {
+                "text": "tetraspanins",
+                "start": 75,
+                "end": 87,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "cell surface",
+                "start": 48,
+                "end": 60,
+                "token_start": 8,
+                "token_end": 9,
+                "entityLabel": "C"
+            },
+            {
+                "text": "BAP31",
+                "start": 0,
+                "end": 5,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "G"
+            },
+            {
+                "text": "integrin",
+                "start": 92,
+                "end": 100,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "caspase cleavage product",
+                "start": 14,
+                "end": 38,
+                "token_start": 4,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 12,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Here we show that cell surface expression of the tetraspanins CD9 and CD81 is compromised in mouse cells from which the Bap31 gene has been deleted.",
+        "tokens": [
+            {
+                "text": "tetraspanins",
+                "start": 49,
+                "end": 61,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "cell surface",
+                "start": 18,
+                "end": 30,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "C"
+            },
+            {
+                "text": "CD9",
+                "start": 62,
+                "end": 65,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "CD81",
+                "start": 70,
+                "end": 74,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "cells",
+                "start": 99,
+                "end": 104,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "C"
+            },
+            {
+                "text": "mouse",
+                "start": 93,
+                "end": 98,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "M"
+            },
+            {
+                "text": "Bap31 gene",
+                "start": 120,
+                "end": 130,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "G"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 9,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 16,
+                "head": 17,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Effects of human soluble BAFF synthesized in Escherichia coli on CD4+ and CD8+ T lymphocytes as well as NK cells in mice.",
+        "tokens": [
+            {
+                "text": "Escherichia coli",
+                "start": 45,
+                "end": 61,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "B"
+            },
+            {
+                "text": "BAFF",
+                "start": 25,
+                "end": 29,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "mice",
+                "start": 116,
+                "end": 120,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "M"
+            },
+            {
+                "text": "NK cells",
+                "start": 104,
+                "end": 112,
+                "token_start": 20,
+                "token_end": 21,
+                "entityLabel": "C"
+            },
+            {
+                "text": "CD8+ T lymphocytes",
+                "start": 74,
+                "end": 92,
+                "token_start": 13,
+                "token_end": 16,
+                "entityLabel": "C"
+            },
+            {
+                "text": "CD4+",
+                "start": 65,
+                "end": 69,
+                "token_start": 10,
+                "token_end": 11,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 7,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 20,
+                "head": 23,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "On the 8th day after injection, we investigated the effects of hsBAFF on immune functional activities of splenic B lymphocytes, CD4(+) and CD8(+) T lymphocytes and natural killer (NK) cells in mice.",
+        "tokens": [
+            {
+                "text": "mice",
+                "start": 193,
+                "end": 197,
+                "token_start": 41,
+                "token_end": 41,
+                "entityLabel": "M"
+            },
+            {
+                "text": "natural killer (NK) cells",
+                "start": 164,
+                "end": 189,
+                "token_start": 34,
+                "token_end": 39,
+                "entityLabel": "C"
+            },
+            {
+                "text": "CD8(+) T lymphocytes",
+                "start": 139,
+                "end": 159,
+                "token_start": 27,
+                "token_end": 30,
+                "entityLabel": "C"
+            },
+            {
+                "text": "CD4(+)",
+                "start": 128,
+                "end": 134,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "C"
+            },
+            {
+                "text": "splenic",
+                "start": 105,
+                "end": 112,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "B"
+            },
+            {
+                "text": "hsBAFF",
+                "start": 63,
+                "end": 69,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 34,
+                "head": 41,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "BACKGROUND: The factors associated with recurrent restenosis after SES implantation for in-stent restenosis are unknown.",
+        "tokens": [
+            {
+                "text": "implantation",
+                "start": 71,
+                "end": 83,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "T"
+            },
+            {
+                "text": "restenosis",
+                "start": 50,
+                "end": 60,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "A"
+            },
+            {
+                "text": "SES",
+                "start": 71,
+                "end": 74,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "T"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 10,
+                "relationLabel": "PRECEDES"
+            }
+        ]
+    },
+    {
+        "document": "A cardiac event related to the target vessel occurred in 24 (24%) patients, and was associated with dialysis status (p &lt; 0.05), lower ejection fraction (p &lt; 0.05) and revascularization without SES in another site (p &lt; 0.0001).",
+        "tokens": [
+            {
+                "text": "cardiac event",
+                "start": 2,
+                "end": 15,
+                "token_start": 1,
+                "token_end": 2,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 66,
+                "end": 74,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "dialysis status",
+                "start": 100,
+                "end": 115,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "F"
+            },
+            {
+                "text": "ejection fraction",
+                "start": 134,
+                "end": 151,
+                "token_start": 30,
+                "token_end": 31,
+                "entityLabel": "F"
+            },
+            {
+                "text": "revascularization",
+                "start": 167,
+                "end": 184,
+                "token_start": 38,
+                "token_end": 38,
+                "entityLabel": "T"
+            },
+            {
+                "text": "SES",
+                "start": 193,
+                "end": 196,
+                "token_start": 40,
+                "token_end": 40,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 15,
+                "head": 1,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Parturition in the rat: a physiological pain model.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Finally, epidural morphine (30 microg/10 microl) in oxytocin treated rats, although resulting in no change of labor duration, significantly decreased the number of stretches (8 +/- 2 vs. 57 +/- 12 for epidural saline) and the number of c-Fos positive neurons in the lumbosacral spinal segments (80 +/- 25 vs. 165 +/- 17 for epidural saline).",
+        "tokens": [
+            {
+                "text": "oxytocin",
+                "start": 52,
+                "end": 60,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "rats",
+                "start": 69,
+                "end": 73,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "M"
+            },
+            {
+                "text": "morphine",
+                "start": 18,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "labor duration",
+                "start": 110,
+                "end": 124,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "C"
+            },
+            {
+                "text": "lumbosacral spinal",
+                "start": 266,
+                "end": 284,
+                "token_start": 56,
+                "token_end": 57,
+                "entityLabel": "B"
+            },
+            {
+                "text": "neurons",
+                "start": 251,
+                "end": 258,
+                "token_start": 53,
+                "token_end": 53,
+                "entityLabel": "C"
+            },
+            {
+                "text": "c-Fos",
+                "start": 236,
+                "end": 241,
+                "token_start": 51,
+                "token_end": 53,
+                "entityLabel": "G"
+            }
+        ],
+        "relations": [
+            {
+                "child": 14,
+                "head": 12,
                 "relationLabel": "TREATS"
             },
             {
+                "child": 53,
+                "head": 56,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Asymptomatic patients are discovered incidentally during cardiac surgery for an unrelated condition or postmortem.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "However, symptomatic patients may experience non-exertional paroxysmal stabbing chest pain.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Phase II study of recombinant human endostatin in patients with advanced neuroendocrine tumors.",
+        "tokens": [
+            {
+                "text": "endostatin",
+                "start": 36,
+                "end": 46,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "human",
+                "start": 30,
+                "end": 35,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Group"
+            },
+            {
+                "text": "patients",
+                "start": 50,
+                "end": 58,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "neuroendocrine tumors",
+                "start": 73,
+                "end": 94,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 6,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "PATIENTS AND METHODS: Forty-two patients with advanced pancreatic endocrine tumors or carcinoid tumors were treated with rhEndostatin administered as a bid subcutaneous injection at a starting dose of 60 mg/m2/d.",
+        "tokens": [
+            {
+                "text": "pancreatic endocrine tumors",
+                "start": 55,
+                "end": 82,
+                "token_start": 8,
+                "token_end": 10,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 32,
+                "end": 40,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "rhEndostatin",
+                "start": 121,
+                "end": 133,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 8,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "The presence of glucosylceramide has been confirmed in some yeast; however, the extent of the role of glucosylceramide in yeast is unknown.",
+        "tokens": [
+            {
+                "text": "yeast",
+                "start": 60,
+                "end": 65,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "F"
+            },
+            {
+                "text": "glucosylceramide",
+                "start": 16,
+                "end": 32,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Biologically Active Substance"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 9,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Thus, the extent of presence of glucosylceramide in yeast was surveyed using 90 strains of 24 genera.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "[Vitamin D: synthesis, metabolism, regulation, and an assessment of its deficiency in patients with chronic renal disease].",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "These disorders are caused by secondary hyperparathyroidism which develops as a result of mineral metabolism impairment, especially of hypocalemia, 25(OH)D deficiency, and insufficient synthesis of 1,25(OH)2D.",
+        "tokens": [
+            {
+                "text": "secondary hyperparathyroidism",
+                "start": 30,
+                "end": 59,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "D"
+            },
+            {
+                "text": "disorders",
+                "start": 6,
+                "end": 15,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "D"
+            },
+            {
+                "text": "mineral metabolism impairment",
+                "start": 90,
+                "end": 119,
+                "token_start": 13,
+                "token_end": 15,
+                "entityLabel": "P"
+            },
+            {
+                "text": "hypocalemia",
+                "start": 135,
+                "end": 146,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 1,
+                "head": 5,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "In vitro analysis of ISEcp1B-mediated mobilization of naturally occurring beta-lactamase gene blaCTX-M of Kluyvera ascorbata.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "In earlier studies, detection of circulating DNA has been investigated for the detection of various forms of cancer.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "In the case of pregnancies, detection of fetal DNA in maternal plasma is a useful tool for detecting and monitoring certain fetal diseases and pregnancy-associated complications.",
+        "tokens": [
+            {
+                "text": "plasma",
+                "start": 63,
+                "end": 69,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "B"
+            },
+            {
+                "text": "maternal",
+                "start": 54,
+                "end": 62,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Family Group"
+            },
+            {
+                "text": "DNA",
+                "start": 47,
+                "end": 50,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "detection",
+                "start": 28,
+                "end": 37,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "T"
+            },
+            {
+                "text": "fetal diseases",
+                "start": 124,
+                "end": 138,
+                "token_start": 8,
+                "token_end": 9,
+                "entityLabel": "D"
+            },
+            {
+                "text": "pregnancy-associated complications",
+                "start": 143,
+                "end": 177,
+                "token_start": 25,
+                "token_end": 28,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 12,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 8,
+                "head": 6,
+                "relationLabel": "DIAGNOSES"
+            }
+        ]
+    },
+    {
+        "document": "Disruption and restoration of cell-cell junctions in mouse vestibular epithelia following aminoglycoside treatment.",
+        "tokens": [
+            {
+                "text": "mouse vestibular epithelia",
+                "start": 53,
+                "end": 79,
+                "token_start": 7,
+                "token_end": 9,
+                "entityLabel": "B"
+            },
+            {
+                "text": "cell-cell junctions",
+                "start": 30,
+                "end": 49,
+                "token_start": 4,
+                "token_end": 7,
+                "entityLabel": "B"
+            },
+            {
+                "text": "treatment",
+                "start": 105,
+                "end": 114,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "T"
+            },
+            {
+                "text": "aminoglycoside",
+                "start": 90,
+                "end": 104,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Carbohydrate"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 12,
+                "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "Transient disruption of cell-cell junctions and down-expression of E-cadherin is a rational response for the deletion of dying hair cells, and may be associated with a limited capacity for cell proliferations in mammalian vestibular epithelia following their rapid restoration.",
+        "tokens": [
+            {
+                "text": "epithelia",
+                "start": 233,
+                "end": 242,
+                "token_start": 35,
+                "token_end": 35,
+                "entityLabel": "T"
+            },
+            {
+                "text": "vestibular",
+                "start": 222,
+                "end": 232,
+                "token_start": 34,
+                "token_end": 34,
+                "entityLabel": "B"
+            },
+            {
+                "text": "mammalian",
+                "start": 212,
+                "end": 221,
+                "token_start": 33,
+                "token_end": 33,
+                "entityLabel": "M"
+            },
+            {
+                "text": "cell proliferations",
+                "start": 189,
+                "end": 208,
+                "token_start": 30,
+                "token_end": 31,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 34,
+                "head": 35,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Promoters and their regulation in Ustilago maydis and other phytopathogenic fungi.",
+        "tokens": [
+            {
+                "text": "Ustilago maydis",
+                "start": 34,
+                "end": 49,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "F"
+            },
+            {
+                "text": "Promoters",
+                "start": 0,
+                "end": 9,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "fungi",
+                "start": 76,
+                "end": 81,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 5,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "In Ustilago maydis, central players of pathogenic development are the high mobility group box protein Prf1 that binds to the pheromone response element and the homeodomain transcription factor b, which recognizes an hsg-like consensus motif known from yeast Mata1-Matalpha2 DNA binding.",
+        "tokens": [
+            {
+                "text": "Prf1",
+                "start": 102,
+                "end": 106,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "Gene or Genome"
+            },
+            {
+                "text": "response element",
+                "start": 135,
+                "end": 151,
+                "token_start": 23,
+                "token_end": 24,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "high mobility group box protein",
+                "start": 70,
+                "end": 101,
+                "token_start": 11,
+                "token_end": 15,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "Matalpha2",
+                "start": 264,
+                "end": 273,
+                "token_start": 44,
+                "token_end": 44,
+                "entityLabel": "A"
+            },
+            {
+                "text": "Mata1",
+                "start": 258,
+                "end": 263,
+                "token_start": 41,
+                "token_end": 41,
+                "entityLabel": "Gene or Genome"
+            },
+            {
+                "text": "DNA binding",
+                "start": 274,
+                "end": 285,
+                "token_start": 46,
+                "token_end": 47,
+                "entityLabel": "G"
+            },
+            {
+                "text": "yeast",
+                "start": 252,
+                "end": 257,
+                "token_start": 40,
+                "token_end": 40,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 23,
+                "head": 16,
+                "relationLabel": "INTERACTS_WITH"
+            },
+            {
+                "child": 41,
+                "head": 44,
+                "relationLabel": "INTERACTS_WITH"
+            },
+            {
+                "child": 40,
+                "head": 46,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Older populations are more prone to bone loss with weight loss; in women, this is due at least in part to a reduced dietary Ca intake and/or efficiency of absorption.",
+        "tokens": [
+            {
+                "text": "weight loss",
+                "start": 51,
+                "end": 62,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "F"
+            },
+            {
+                "text": "Older populations",
+                "start": 0,
+                "end": 17,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "Population Group"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "document": "Potential hormonal mechanisms regulating bone loss during weight loss are discussed, including decreases in estrogen, leptin, glucagon-like peptide-2, growth hormone, and insulin-like growth factor-1, or an increase in cortisol.",
+        "tokens": [
+            {
+                "text": "bone loss",
+                "start": 41,
+                "end": 50,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "P"
+            },
+            {
+                "text": "hormonal",
+                "start": 10,
+                "end": 18,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "document": "Wnt/beta-catenin signaling inhibits death receptor-mediated apoptosis and promotes invasive growth of HNSCC.",
+        "tokens": [
+            {
+                "text": "beta-catenin",
+                "start": 4,
+                "end": 16,
+                "token_start": 2,
+                "token_end": 4,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "apoptosis",
+                "start": 60,
+                "end": 69,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "C"
+            },
+            {
+                "text": "invasive growth",
+                "start": 83,
+                "end": 98,
+                "token_start": 10,
+                "token_end": 11,
+                "entityLabel": "P"
+            },
+            {
+                "text": "HNSCC",
+                "start": 102,
+                "end": 107,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 2,
+                "relationLabel": "DISRUPTS"
+            }
+        ]
+    },
+    {
+        "document": "The Wnt/beta-catenin signaling pathway plays a critical role in cell proliferation and oncogenesis.",
+        "tokens": [
+            {
+                "text": "Wnt/beta-catenin signaling pathway",
+                "start": 4,
+                "end": 38,
+                "token_start": 1,
+                "token_end": 7,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "cell proliferation",
+                "start": 64,
+                "end": 82,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "oncogenesis",
+                "start": 87,
+                "end": 98,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 1,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "Enhanced detection and typing of human papillomavirus (HPV) DNA in anogenital samples with PGMY primers and the Linear array HPV genotyping test.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "HPV DNA was detected in 433 (82.0%) and 458 (86.7%) samples with PGMY-LB and LA-HPV (P = 0.047), respectively, for an excellent agreement of 93.8% (kappa = 0.76).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Organophosphates were implicated in 70.9% of all fatalities, with over 20% resulting from oral exposure to rat poison (RP).",
+        "tokens": [
+            {
+                "text": "Organophosphates",
+                "start": 0,
+                "end": 16,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "O"
+            },
+            {
+                "text": "fatalities",
+                "start": 49,
+                "end": 59,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "O"
+            },
+            {
+                "text": "rat",
+                "start": 107,
+                "end": 110,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "M"
+            },
+            {
+                "text": "poison",
+                "start": 111,
+                "end": 117,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 20,
+                "head": 19,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "CONCLUSION: Organophosphates and rat poison (RP) are the leading causes of APP admissions to major referral hospitals in Zimbabwe, with most of the admissions being the result of deliberate self-poisoning.",
+        "tokens": [
+            {
+                "text": "Organophosphates",
+                "start": 12,
+                "end": 28,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "O"
+            },
+            {
+                "text": "APP",
+                "start": 75,
+                "end": 78,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "I"
+            },
+            {
+                "text": "poison",
+                "start": 37,
+                "end": 43,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "H"
+            },
+            {
+                "text": "rat",
+                "start": 33,
+                "end": 36,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
                 "child": 14,
-                "head": 32,
+                "head": 2,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "Patients with severe MDRPA infections should be treated with combination therapy, consisting of an antipseudomonal beta-lactam with an aminoglycoside or fluoroquinolone rather than aminoglycoside and fluoroquinolone combinations, to provide adequate therapy and improve patient outcomes.",
+        "tokens": [
+            {
+                "text": "combination therapy",
+                "start": 61,
+                "end": 80,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "T"
+            },
+            {
+                "text": "Patients",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "MDRPA",
+                "start": 21,
+                "end": 26,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "beta-lactam",
+                "start": 115,
+                "end": 126,
+                "token_start": 16,
+                "token_end": 18,
+                "entityLabel": "Antibiotic"
+            },
+            {
+                "text": "aminoglycoside",
+                "start": 135,
+                "end": 149,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "Carbohydrate"
+            },
+            {
+                "text": "fluoroquinolone",
+                "start": 153,
+                "end": 168,
+                "token_start": 21,
+                "token_end": 21,
+                "entityLabel": "Organic Chemical"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 9,
                 "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Modulation of ADAMTS13 secretion and specific activity by a combination of common amino acid polymorphisms and a missense mutation.",
+        "tokens": [
+            {
+                "text": "missense mutation",
+                "start": 113,
+                "end": 130,
+                "token_start": 18,
+                "token_end": 19,
+                "entityLabel": "G"
+            },
+            {
+                "text": "ADAMTS13",
+                "start": 14,
+                "end": 22,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "Gene or Genome"
+            },
+            {
+                "text": "polymorphisms",
+                "start": 93,
+                "end": 106,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "G"
+            },
+            {
+                "text": "amino acid",
+                "start": 82,
+                "end": 92,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 18,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "Sequence analysis of the ADAMTS13 locus of 2 patients with hereditary thrombotic thrombocytopenic purpura (TTP) revealed the homozygous presence of 4 single nucleotide polymorphisms (SNPs) (R7W, Q448E, P618A, A732V) and a rare missense mutation (R1336W).",
+        "tokens": [
+            {
+                "text": "thrombotic thrombocytopenic purpura",
+                "start": 70,
+                "end": 105,
+                "token_start": 12,
+                "token_end": 14,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 45,
+                "end": 53,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "ADAMTS13",
+                "start": 25,
+                "end": 33,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Gene or Genome"
+            },
+            {
+                "text": "Sequence analysis",
+                "start": 0,
+                "end": 17,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "Laboratory Procedure"
+            },
+            {
+                "text": "rare missense mutation (R1336W)",
+                "start": 222,
+                "end": 253,
+                "token_start": 41,
+                "token_end": 46,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 12,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 41,
+                "head": 0,
+                "relationLabel": "DIAGNOSES"
+            }
+        ]
+    },
+    {
+        "document": "However, the current study demonstrates that oral administration of dibutyl phthalate (DBP) to female Long Evans (LE) hooded rats from weaning, through puberty, mating, and gestation disrupts pregnancy maintenance at dose levels similar to those that affect testis function in male rats.",
+        "tokens": [
+            {
+                "text": "testis function",
+                "start": 258,
+                "end": 273,
+                "token_start": 45,
+                "token_end": 46,
+                "entityLabel": "O"
+            },
+            {
+                "text": "rats",
+                "start": 282,
+                "end": 286,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "M"
+            },
+            {
+                "text": "dibutyl phthalate",
+                "start": 68,
+                "end": 85,
+                "token_start": 10,
+                "token_end": 11,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "pregnancy maintenance",
+                "start": 192,
+                "end": 213,
+                "token_start": 35,
+                "token_end": 36,
+                "entityLabel": "O"
+            }
+        ],
+        "relations": [
+            {
+                "child": 23,
+                "head": 45,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 35,
+                "head": 10,
+                "relationLabel": "DISRUPTS"
+            }
+        ]
+    },
+    {
+        "document": "Administration of 500 and 1000 mg DBP/kg/day, but not 250 mg DBP/kg/day, to female LE rats induced midpregnancy abortions.",
+        "tokens": [
+            {
+                "text": "DBP",
+                "start": 34,
+                "end": 37,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "LE rats",
+                "start": 83,
+                "end": 90,
+                "token_start": 24,
+                "token_end": 25,
+                "entityLabel": "M"
+            },
+            {
+                "text": "abortions",
+                "start": 112,
+                "end": 121,
+                "token_start": 28,
+                "token_end": 28,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 24,
+                "head": 6,
+                "relationLabel": "ADMINISTERED_TO"
+            }
+        ]
+    },
+    {
+        "document": "Adherens junctions and more specifically cadherins play an important role in endothelial cell integrity and growth and, in general, in vascular morphogenesis.",
+        "tokens": [
+            {
+                "text": "Adherens junctions",
+                "start": 0,
+                "end": 18,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "C"
+            },
+            {
+                "text": "vascular morphogenesis",
+                "start": 135,
+                "end": 157,
+                "token_start": 22,
+                "token_end": 23,
+                "entityLabel": "O"
+            },
+            {
+                "text": "cadherins",
+                "start": 41,
+                "end": 50,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "endothelial cell",
+                "start": 77,
+                "end": 93,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 22,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "N-cadherin is also abundantly expressed in the endothelium and may be important in modulating VE-cadherin expression.",
+        "tokens": [
+            {
+                "text": "endothelium",
+                "start": 47,
+                "end": 58,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "T"
+            },
+            {
+                "text": "N-cadherin",
+                "start": 0,
+                "end": 10,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "VE-cadherin",
+                "start": 94,
+                "end": 105,
+                "token_start": 14,
+                "token_end": 16,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 7,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Malignant smooth muscle tumours of soft tissue--a demographic and clinicopathological study at a tertiary care hospital.",
+        "tokens": [
+            {
+                "text": "soft tissue",
+                "start": 35,
+                "end": 46,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "T"
+            },
+            {
+                "text": "Malignant smooth muscle tumours",
+                "start": 0,
+                "end": 31,
+                "token_start": 0,
+                "token_end": 3,
+                "entityLabel": "N"
+            },
+            {
+                "text": "tertiary care hospital",
+                "start": 97,
+                "end": 119,
+                "token_start": 13,
+                "token_end": 15,
+                "entityLabel": "Health Care Related Organization"
+            },
+            {
+                "text": "study",
+                "start": 86,
+                "end": 91,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "R"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 5,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 10,
+                "head": 13,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "LMS in the extremities was equally common in both genders, but trunk LMS was nearly twice as common in the females.",
+        "tokens": [
+            {
+                "text": "extremities",
+                "start": 11,
+                "end": 22,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "B"
+            },
+            {
+                "text": "LMS",
+                "start": 0,
+                "end": 3,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "N"
+            },
+            {
+                "text": "trunk",
+                "start": 63,
+                "end": 68,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "B"
+            },
+            {
+                "text": "females",
+                "start": 107,
+                "end": 114,
+                "token_start": 21,
+                "token_end": 21,
+                "entityLabel": "Population Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 0,
+                "head": 3,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Thus, a physiological concentration of GH stimulated the differentiation of B-lymphoid precursors from bone marrow stem cells.",
+        "tokens": [
+            {
+                "text": "GH",
+                "start": 39,
+                "end": 41,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "B-lymphoid precursors",
+                "start": 76,
+                "end": 97,
+                "token_start": 11,
+                "token_end": 14,
+                "entityLabel": "C"
+            },
+            {
+                "text": "bone marrow stem cells",
+                "start": 103,
+                "end": 125,
+                "token_start": 14,
+                "token_end": 17,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 6,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "Since mRNAs of both GH and GH receptor were present in stem cells and B-cell precursors in bone marrow, GH may modulate B-lymphoid precursors development in an autocrine or paracrine manner in bone marrows.",
+        "tokens": [
+            {
+                "text": "stem cells",
+                "start": 55,
+                "end": 65,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "mRNAs",
+                "start": 6,
+                "end": 11,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "GH",
+                "start": 20,
+                "end": 22,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "B-cell precursors",
+                "start": 70,
+                "end": 87,
+                "token_start": 14,
+                "token_end": 17,
+                "entityLabel": "C"
+            },
+            {
+                "text": "bone marrow",
+                "start": 91,
+                "end": 102,
+                "token_start": 17,
+                "token_end": 18,
+                "entityLabel": "B"
+            }
+        ],
+        "relations": [
+            {
+                "child": 1,
+                "head": 11,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 17,
+                "head": 14,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Reviewing previously reported cases, all patients diagnosed as DJS before 10 y of age have mutations involving one of the two ATP-binding cassettes (ABC) of the MRP2.",
+        "tokens": [
+            {
+                "text": "mutations",
+                "start": 91,
+                "end": 100,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "G"
+            },
+            {
+                "text": "patients",
+                "start": 41,
+                "end": 49,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "DJS",
+                "start": 63,
+                "end": 66,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "D"
+            },
+            {
+                "text": "MRP2",
+                "start": 161,
+                "end": 165,
+                "token_start": 29,
+                "token_end": 29,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "ATP-binding cassettes (ABC)",
+                "start": 126,
+                "end": 153,
+                "token_start": 22,
+                "token_end": 28,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 16,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "This study suggests that long-term follow-up is indicated for neonatal DJS because of possible recurrence and/or second attacks of jaundice in later life, and that disruption of functionally important ABC domains in MRP2 may be related to the earlier onset of the disease.",
+        "tokens": [
+            {
+                "text": "DJS",
+                "start": 71,
+                "end": 74,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "D"
+            },
+            {
+                "text": "neonatal",
+                "start": 62,
+                "end": 70,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "Age Group"
+            },
+            {
+                "text": "follow-up",
+                "start": 35,
+                "end": 44,
+                "token_start": 5,
+                "token_end": 7,
+                "entityLabel": "H"
+            },
+            {
+                "text": "MRP2",
+                "start": 216,
+                "end": 220,
+                "token_start": 35,
+                "token_end": 35,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "disease",
+                "start": 264,
+                "end": 271,
+                "token_start": 46,
+                "token_end": 46,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 10,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 46,
+                "head": 35,
+                "relationLabel": "ASSOCIATED_WITH"
+            }
+        ]
+    },
+    {
+        "document": "BACKGROUND: An association between renal hemodynamic dysfunction and coronary artery disease (CAD) has been documented in chronic renal failure; however, no information is available in CAD patients with normal glomerular filtration rate (GFR).",
+        "tokens": [
+            {
+                "text": "CAD",
+                "start": 185,
+                "end": 188,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 189,
+                "end": 197,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "glomerular filtration rate",
+                "start": 210,
+                "end": 236,
+                "token_start": 34,
+                "token_end": 36,
+                "entityLabel": "Diagnostic Procedure"
+            },
+            {
+                "text": "coronary artery disease",
+                "start": 69,
+                "end": 92,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "D"
+            },
+            {
+                "text": "chronic renal failure",
+                "start": 122,
+                "end": 143,
+                "token_start": 19,
+                "token_end": 21,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 31,
+                "head": 13,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 19,
+                "head": 9,
+                "relationLabel": "COEXISTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "CONCLUSION: In CAD patients with normal GFR, reduction in renal perfusion and absence of renal functional reserve likely represent early markers of progressive renal dysfunction.",
+        "tokens": [
+            {
+                "text": "CAD",
+                "start": 15,
+                "end": 18,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "patients",
+                "start": 19,
+                "end": 27,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "GFR",
+                "start": 40,
+                "end": 43,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Diagnostic Procedure"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 3,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Rho signaling via ROCK has been previously shown either to activate or to downregulate PI3K/Akt.",
+        "tokens": [
+            {
+                "text": "Rho",
+                "start": 0,
+                "end": 3,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "PI3K",
+                "start": 87,
+                "end": 91,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "Akt",
+                "start": 92,
+                "end": 95,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 14,
+                "head": 0,
+                "relationLabel": "STIMULATES"
+            }
+        ]
+    },
+    {
+        "document": "The aims of this study were to evaluate expression levels of NF-kappaB in nonsmall-cell lung cancer (NSCLC) and to elucidate its clinical significance and prognostic value for patients with NSCLC.",
+        "tokens": [
+            {
+                "text": "NF-kappaB",
+                "start": 61,
+                "end": 70,
+                "token_start": 11,
+                "token_end": 13,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "nonsmall-cell lung cancer",
+                "start": 74,
+                "end": 99,
+                "token_start": 13,
+                "token_end": 17,
+                "entityLabel": "N"
+            },
+            {
+                "text": "NSCLC",
+                "start": 190,
+                "end": 195,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 176,
+                "end": 184,
+                "token_start": 29,
+                "token_end": 29,
+                "entityLabel": "Patient or Disabled Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 13,
+                "head": 11,
+                "relationLabel": "ASSOCIATED_WITH"
+            },
+            {
+                "child": 29,
+                "head": 17,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Overexpression of NF-kappaB inhibits tumor cell apoptosis and indicates an unfavorable prognosis for overall survival in some patients with NSCLC.",
+        "tokens": [
+            {
+                "text": "NF-kappaB",
+                "start": 18,
+                "end": 27,
+                "token_start": 2,
+                "token_end": 4,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "apoptosis",
+                "start": 48,
+                "end": 57,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "C"
+            },
+            {
+                "text": "NSCLC",
+                "start": 140,
+                "end": 145,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 126,
+                "end": 134,
+                "token_start": 17,
+                "token_end": 17,
+                "entityLabel": "Patient or Disabled Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 2,
+                "relationLabel": "DISRUPTS"
+            },
+            {
+                "child": 17,
+                "head": 19,
+                "relationLabel": "PROCESS_OF"
             }
         ]
     }

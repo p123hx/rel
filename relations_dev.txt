@@ -1,1283 +1,650 @@
 [
     {
-        "document": "Phase II study of recombinant human endostatin in patients with advanced neuroendocrine tumors.",
+        "document": "Thiazolidinediones (TZDs) are peroxisomal proliferator-activated receptor (PPAR)-gamma agonists.",
         "tokens": [
             {
-                "text": "endostatin",
-                "start": 36,
-                "end": 46,
-                "token_start": 6,
-                "token_end": 6,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
+                "text": "Thiazolidinediones (TZDs)",
+                "start": 0,
+                "end": 25,
+                "token_start": 0,
+                "token_end": 3,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "peroxisomal proliferator-activated receptor (PPAR)-gamma agonists",
+                "start": 30,
+                "end": 95,
+                "token_start": 5,
+                "token_end": 12,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 0,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "Other, as yet, unapproved uses of TZDs include: non-alcoholic fatty liver disease, in which TZDs reduced hepatic fat accumulation and improved liver function tests; polycystic ovary syndrome, where TZDs improved ovulation, hirsutism and endothelial dysfunction; and lipodystrophies, where TZDs increased body fat (marginally) and decrease liver size.",
+        "tokens": [
+            {
+                "text": "TZDs",
+                "start": 34,
+                "end": 38,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "disease",
+                "start": 74,
+                "end": 81,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "D"
+            },
+            {
+                "text": "non-alcoholic fatty liver",
+                "start": 48,
+                "end": 73,
+                "token_start": 11,
+                "token_end": 15,
+                "entityLabel": "D"
+            },
+            {
+                "text": "hepatic fat accumulation",
+                "start": 105,
+                "end": 129,
+                "token_start": 20,
+                "token_end": 22,
+                "entityLabel": "F"
+            },
+            {
+                "text": "polycystic ovary syndrome",
+                "start": 165,
+                "end": 190,
+                "token_start": 29,
+                "token_end": 31,
+                "entityLabel": "D"
+            },
+            {
+                "text": "ovulation",
+                "start": 212,
+                "end": 221,
+                "token_start": 36,
+                "token_end": 36,
+                "entityLabel": "O"
+            },
+            {
+                "text": "hirsutism",
+                "start": 223,
+                "end": 232,
+                "token_start": 38,
+                "token_end": 38,
+                "entityLabel": "F"
+            },
+            {
+                "text": "endothelial dysfunction",
+                "start": 237,
+                "end": 260,
+                "token_start": 40,
+                "token_end": 41,
+                "entityLabel": "D"
+            },
+            {
+                "text": "lipodystrophies",
+                "start": 266,
+                "end": 281,
+                "token_start": 44,
+                "token_end": 44,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 14,
+                "head": 8,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "Localisation of heme oxygenase isoforms in allergic human nasal mucosa.",
+        "tokens": [
+            {
+                "text": "nasal mucosa",
+                "start": 58,
+                "end": 70,
+                "token_start": 8,
+                "token_end": 9,
+                "entityLabel": "T"
             },
             {
                 "text": "human",
-                "start": 30,
-                "end": 35,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Group"
-            },
-            {
-                "text": "endostatin",
-                "start": 36,
-                "end": 46,
-                "token_start": 6,
-                "token_end": 6,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "patients",
-                "start": 50,
-                "end": 58,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "neuroendocrine tumors",
-                "start": 73,
-                "end": 94,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "N"
-            },
-            {
-                "text": "patients",
-                "start": 50,
-                "end": 58,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "endostatin",
-                "start": 36,
-                "end": 46,
-                "token_start": 6,
-                "token_end": 6,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "neuroendocrine tumors",
-                "start": 73,
-                "end": 94,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "N"
-            }
-        ],
-        "relations": [
-            {
-                "child": 5,
-                "head": 6,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 8,
-                "head": 6,
-                "relationLabel": "TREATS"
-            },
-            {
-                "child": 8,
-                "head": 11,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 11,
-                "head": 6,
-                "relationLabel": "TREATS"
-            }
-        ]
-    },
-    {
-        "document": "PATIENTS AND METHODS: Forty-two patients with advanced pancreatic endocrine tumors or carcinoid tumors were treated with rhEndostatin administered as a bid subcutaneous injection at a starting dose of 60 mg/m2/d.",
-        "tokens": [
-            {
-                "text": "pancreatic endocrine tumors",
-                "start": 55,
-                "end": 82,
-                "token_start": 8,
-                "token_end": 10,
-                "entityLabel": "N"
-            },
-            {
-                "text": "patients",
-                "start": 32,
-                "end": 40,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "carcinoid tumors",
-                "start": 86,
-                "end": 102,
-                "token_start": 12,
-                "token_end": 13,
-                "entityLabel": "N"
-            },
-            {
-                "text": "patients",
-                "start": 32,
-                "end": 40,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "rhEndostatin",
-                "start": 121,
-                "end": 133,
-                "token_start": 17,
-                "token_end": 17,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "patients",
-                "start": 32,
-                "end": 40,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "rhEndostatin",
-                "start": 121,
-                "end": 133,
-                "token_start": 17,
-                "token_end": 17,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "pancreatic endocrine tumors",
-                "start": 55,
-                "end": 82,
-                "token_start": 8,
-                "token_end": 10,
-                "entityLabel": "N"
-            },
-            {
-                "text": "rhEndostatin",
-                "start": 121,
-                "end": 133,
-                "token_start": 17,
-                "token_end": 17,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "carcinoid tumors",
-                "start": 86,
-                "end": 102,
-                "token_start": 12,
-                "token_end": 13,
-                "entityLabel": "N"
-            }
-        ],
-        "relations": [
-            {
-                "child": 5,
-                "head": 8,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 5,
-                "head": 12,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 5,
-                "head": 17,
-                "relationLabel": "TREATS"
-            },
-            {
-                "child": 8,
-                "head": 17,
-                "relationLabel": "TREATS"
-            },
-            {
-                "child": 12,
-                "head": 17,
-                "relationLabel": "TREATS"
-            }
-        ]
-    },
-    {
-        "document": "It was suggested that individuals seroconverting later in calendar time were more likely to have TDR (relative risk 3.89 and 95% CI: 0.84 to 18.02, and relative risk 4.69 and 95% CI: 1.03 to 21.31, for 1996-1999 and 2000-2003, respectively, compared with pre-1996; P trend = 0.08).",
-        "tokens": [],
-        "relations": []
-    },
-    {
-        "document": "The total estimated proportion of individuals with TDR varied between 10.3% and 15.5% according to which definition was used.",
-        "tokens": [],
-        "relations": []
-    },
-    {
-        "document": "Patients with higher serum phosphorus (P) (group A: P &gt; or = 7 mg/dl) were compared with those with lower serum P levels (group B: P &lt; 7 mg/dl).",
-        "tokens": [
-            {
-                "text": "serum",
-                "start": 21,
-                "end": 26,
-                "token_start": 3,
-                "token_end": 3,
-                "entityLabel": "B"
-            },
-            {
-                "text": "phosphorus",
-                "start": 27,
-                "end": 37,
-                "token_start": 4,
-                "token_end": 4,
-                "entityLabel": "Element, Ion, or Isotope"
-            },
-            {
-                "text": "Patients",
-                "start": 0,
-                "end": 8,
-                "token_start": 0,
-                "token_end": 0,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "phosphorus",
-                "start": 27,
-                "end": 37,
-                "token_start": 4,
-                "token_end": 4,
-                "entityLabel": "Element, Ion, or Isotope"
-            },
-            {
-                "text": "Patients",
-                "start": 0,
-                "end": 8,
-                "token_start": 0,
-                "token_end": 0,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "P",
-                "start": 112,
-                "end": 113,
-                "token_start": 6,
-                "token_end": 6,
-                "entityLabel": "Element, Ion, or Isotope"
-            }
-        ],
-        "relations": [
-            {
-                "child": 4,
-                "head": 3,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 4,
-                "head": 0,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 6,
-                "head": 0,
-                "relationLabel": "LOCATION_OF"
-            }
-        ]
-    },
-    {
-        "document": "Adherens junctions and more specifically cadherins play an important role in endothelial cell integrity and growth and, in general, in vascular morphogenesis.",
-        "tokens": [
-            {
-                "text": "Adherens junctions",
-                "start": 0,
-                "end": 18,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "C"
-            },
-            {
-                "text": "vascular morphogenesis",
-                "start": 135,
-                "end": 157,
-                "token_start": 22,
-                "token_end": 23,
-                "entityLabel": "O"
-            },
-            {
-                "text": "cadherins",
-                "start": 41,
-                "end": 50,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "vascular morphogenesis",
-                "start": 135,
-                "end": 157,
-                "token_start": 22,
-                "token_end": 23,
-                "entityLabel": "O"
-            },
-            {
-                "text": "Adherens junctions",
-                "start": 0,
-                "end": 18,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "C"
-            },
-            {
-                "text": "endothelial cell",
-                "start": 77,
-                "end": 93,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "C"
-            },
-            {
-                "text": "cadherins",
-                "start": 41,
-                "end": 50,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "endothelial cell",
-                "start": 77,
-                "end": 93,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "C"
-            },
-            {
-                "text": "cadherins",
-                "start": 41,
-                "end": 50,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "endothelial cell integrity and growth",
-                "start": 77,
-                "end": 114,
-                "token_start": 11,
-                "token_end": 15,
-                "entityLabel": "C"
-            },
-            {
-                "text": "Adherens junctions",
-                "start": 0,
-                "end": 18,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "C"
-            },
-            {
-                "text": "endothelial cell integrity and growth",
-                "start": 77,
-                "end": 114,
-                "token_start": 11,
-                "token_end": 15,
-                "entityLabel": "C"
-            }
-        ],
-        "relations": [
-            {
-                "child": 22,
-                "head": 0,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 22,
-                "head": 5,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 11,
-                "head": 0,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 11,
-                "head": 5,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 11,
-                "head": 5,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 11,
-                "head": 0,
-                "relationLabel": "AFFECTS"
-            }
-        ]
-    },
-    {
-        "document": "N-cadherin is also abundantly expressed in the endothelium and may be important in modulating VE-cadherin expression.",
-        "tokens": [
-            {
-                "text": "endothelium",
-                "start": 47,
-                "end": 58,
+                "start": 52,
+                "end": 57,
                 "token_start": 7,
                 "token_end": 7,
-                "entityLabel": "T"
+                "entityLabel": "H"
             },
             {
-                "text": "N-cadherin",
-                "start": 0,
-                "end": 10,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "N-cadherin",
-                "start": 0,
-                "end": 10,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "VE-cadherin",
-                "start": 94,
-                "end": 105,
-                "token_start": 14,
-                "token_end": 16,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            }
-        ],
-        "relations": [
-            {
-                "child": 0,
-                "head": 7,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 14,
-                "head": 0,
-                "relationLabel": "INTERACTS_WITH"
-            }
-        ]
-    },
-    {
-        "document": "BAFF-R expression was found only in B-cell lymphoma (44/80, positive cases/examined cases): B-lymphoblastic lymphoma 0/3, B-chronic lymphocytic leukemia/small lymphocytic lymphoma 4/4, mantle cell lymphoma 9/11, follicular lymphoma 10/14, diffuse large B-cell lymphoma (DLBCL) 11/25, marginal zone B-cell lymphoma 8/10, lymphoplasmacytic lymphoma 2/2, plasma cell myeloma 0/2, and Burkitt lymphoma 0/9, but not in T/NK cell lymphomas (0/19) or Hodgkin lymphoma (0/10).",
-        "tokens": [
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-lymphoblastic lymphoma",
-                "start": 92,
-                "end": 116,
-                "token_start": 17,
-                "token_end": 20,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-chronic lymphocytic leukemia/small lymphocytic lymphoma",
-                "start": 122,
-                "end": 179,
-                "token_start": 21,
-                "token_end": 29,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "mantle cell lymphoma",
-                "start": 185,
-                "end": 205,
-                "token_start": 30,
-                "token_end": 32,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "follicular lymphoma",
-                "start": 212,
-                "end": 231,
-                "token_start": 35,
-                "token_end": 36,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "diffuse large B-cell lymphoma",
-                "start": 239,
-                "end": 268,
-                "token_start": 39,
-                "token_end": 44,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "marginal zone B-cell lymphoma",
-                "start": 284,
-                "end": 313,
-                "token_start": 48,
-                "token_end": 53,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "lymphoplasmacytic lymphoma",
-                "start": 320,
-                "end": 346,
-                "token_start": 55,
-                "token_end": 56,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "plasma cell myeloma",
-                "start": 352,
-                "end": 371,
-                "token_start": 59,
-                "token_end": 61,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "Burkitt lymphoma",
-                "start": 381,
-                "end": 397,
-                "token_start": 65,
-                "token_end": 66,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "Hodgkin lymphoma",
-                "start": 444,
-                "end": 460,
-                "token_start": 81,
-                "token_end": 82,
-                "entityLabel": "N"
-            },
-            {
-                "text": "B-cell lymphoma",
-                "start": 36,
-                "end": 51,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "B-lymphoblastic lymphoma",
-                "start": 92,
-                "end": 116,
-                "token_start": 17,
-                "token_end": 20,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "B-chronic lymphocytic leukemia/small lymphocytic lymphoma",
-                "start": 122,
-                "end": 179,
-                "token_start": 21,
-                "token_end": 29,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "mantle cell lymphoma",
-                "start": 185,
-                "end": 205,
-                "token_start": 30,
-                "token_end": 32,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "follicular lymphoma",
-                "start": 212,
-                "end": 231,
-                "token_start": 35,
-                "token_end": 36,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "diffuse large B-cell lymphoma",
-                "start": 239,
-                "end": 268,
-                "token_start": 39,
-                "token_end": 44,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "marginal zone B-cell lymphoma",
-                "start": 284,
-                "end": 313,
-                "token_start": 48,
-                "token_end": 53,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "lymphoplasmacytic lymphoma",
-                "start": 320,
-                "end": 346,
-                "token_start": 55,
-                "token_end": 56,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "plasma cell myeloma",
-                "start": 352,
-                "end": 371,
-                "token_start": 59,
-                "token_end": 61,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "Burkitt lymphoma",
-                "start": 381,
-                "end": 397,
-                "token_start": 65,
-                "token_end": 66,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "Hodgkin lymphoma",
-                "start": 444,
-                "end": 460,
-                "token_start": 81,
-                "token_end": 82,
-                "entityLabel": "N"
-            }
-        ],
-        "relations": [
-            {
-                "child": 6,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 6,
-                "head": 17,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 21,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 30,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 35,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 39,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 48,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 55,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 59,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 65,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 6,
-                "head": 81,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 17,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 21,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 30,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 35,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 39,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 48,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 55,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 59,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 65,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 81,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            }
-        ]
-    },
-    {
-        "document": "BAFF-R was expressed in most low-grade B-cell neoplasms and a small number of DLBCL, suggesting that BAFF-R may play an important role in the proliferation of neoplastic lymphoid cells.",
-        "tokens": [
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "B-cell neoplasms",
-                "start": 39,
-                "end": 55,
-                "token_start": 6,
-                "token_end": 9,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 0,
-                "end": 6,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "DLBCL",
-                "start": 78,
-                "end": 83,
-                "token_start": 13,
-                "token_end": 13,
-                "entityLabel": "N"
-            },
-            {
-                "text": "BAFF-R",
-                "start": 101,
-                "end": 107,
-                "token_start": 0,
-                "token_end": 2,
-                "entityLabel": "G"
-            },
-            {
-                "text": "proliferation",
-                "start": 142,
-                "end": 155,
-                "token_start": 25,
-                "token_end": 25,
-                "entityLabel": "C"
-            },
-            {
-                "text": "proliferation",
-                "start": 142,
-                "end": 155,
-                "token_start": 25,
-                "token_end": 25,
-                "entityLabel": "C"
-            },
-            {
-                "text": "lymphoid cells",
-                "start": 170,
-                "end": 184,
-                "token_start": 28,
-                "token_end": 29,
-                "entityLabel": "C"
-            },
-            {
-                "text": "lymphoid cells",
-                "start": 170,
-                "end": 184,
-                "token_start": 28,
-                "token_end": 29,
-                "entityLabel": "C"
-            },
-            {
-                "text": "neoplastic",
-                "start": 159,
-                "end": 169,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "N"
-            }
-        ],
-        "relations": [
-            {
-                "child": 6,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 13,
-                "head": 0,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 25,
-                "head": 0,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 28,
-                "head": 25,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 27,
-                "head": 28,
-                "relationLabel": "LOCATION_OF"
-            }
-        ]
-    },
-    {
-        "document": "METHODS: This study initially surveyed 163 patients with clinical stage Ib or IIa cervical adenocarcinoma treated with radical hysterectomy and pelvic lymphadenectomy.",
-        "tokens": [
-            {
-                "text": "cervical adenocarcinoma",
-                "start": 82,
-                "end": 105,
-                "token_start": 14,
-                "token_end": 15,
-                "entityLabel": "N"
-            },
-            {
-                "text": "patients",
+                "text": "allergic",
                 "start": 43,
                 "end": 51,
-                "token_start": 7,
-                "token_end": 7,
-                "entityLabel": "Patient or Disabled Group"
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "P"
             },
             {
-                "text": "radical hysterectomy",
-                "start": 119,
-                "end": 139,
-                "token_start": 18,
-                "token_end": 19,
-                "entityLabel": "T"
-            },
-            {
-                "text": "cervical adenocarcinoma",
-                "start": 82,
-                "end": 105,
-                "token_start": 14,
-                "token_end": 15,
-                "entityLabel": "N"
-            },
-            {
-                "text": "pelvic lymphadenectomy",
-                "start": 144,
-                "end": 166,
-                "token_start": 21,
-                "token_end": 22,
-                "entityLabel": "T"
-            },
-            {
-                "text": "cervical adenocarcinoma",
-                "start": 82,
-                "end": 105,
-                "token_start": 14,
-                "token_end": 15,
-                "entityLabel": "N"
+                "text": "heme oxygenase",
+                "start": 16,
+                "end": 30,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
             }
         ],
         "relations": [
             {
                 "child": 7,
-                "head": 14,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 14,
-                "head": 18,
-                "relationLabel": "TREATS"
-            },
-            {
-                "child": 14,
-                "head": 21,
-                "relationLabel": "TREATS"
+                "head": 8,
+                "relationLabel": "PART_OF"
             }
         ]
     },
     {
-        "document": "Of the 163 patients, 116 had preoperative serum CA125 levels, and 14 had pelvic lymph node metastasis.",
+        "document": "In conclusion, unlike iNOS, HO-1 is minimally expressed in the nasal respiratory epithelium of either group.",
         "tokens": [
             {
-                "text": "pelvic",
-                "start": 73,
-                "end": 79,
+                "text": "respiratory epithelium",
+                "start": 69,
+                "end": 91,
                 "token_start": 15,
-                "token_end": 15,
+                "token_end": 16,
+                "entityLabel": "T"
+            },
+            {
+                "text": "HO-1",
+                "start": 28,
+                "end": 32,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "nasal",
+                "start": 63,
+                "end": 68,
+                "token_start": 14,
+                "token_end": 14,
                 "entityLabel": "B"
             },
             {
-                "text": "lymph node metastasis",
-                "start": 80,
-                "end": 101,
-                "token_start": 16,
-                "token_end": 18,
-                "entityLabel": "N"
-            },
-            {
-                "text": "lymph node metastasis",
-                "start": 80,
-                "end": 101,
-                "token_start": 16,
-                "token_end": 18,
-                "entityLabel": "N"
-            },
-            {
-                "text": "patients",
-                "start": 11,
-                "end": 19,
-                "token_start": 3,
-                "token_end": 3,
-                "entityLabel": "Patient or Disabled Group"
+                "text": "group",
+                "start": 102,
+                "end": 107,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "Population Group"
             }
         ],
         "relations": [
             {
-                "child": 16,
+                "child": 6,
                 "head": 15,
                 "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 3,
-                "head": 16,
-                "relationLabel": "PROCESS_OF"
             }
         ]
     },
     {
-        "document": "Parturition in the rat: a physiological pain model.",
+        "document": "OBJECTIVE: To explore the impact of hydrogen sulfide (H2S) donor, sodium hydrosulfide (NaHS), on pulmonary vascular structure and vasoactive peptides in rats with pulmonary hypertension induced by high pulmonary blood flow.",
+        "tokens": [
+            {
+                "text": "hydrogen sulfide",
+                "start": 36,
+                "end": 52,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "I"
+            },
+            {
+                "text": "pulmonary vascular structure",
+                "start": 97,
+                "end": 125,
+                "token_start": 21,
+                "token_end": 23,
+                "entityLabel": "B"
+            },
+            {
+                "text": "peptides",
+                "start": 141,
+                "end": 149,
+                "token_start": 26,
+                "token_end": 26,
+                "entityLabel": "A"
+            },
+            {
+                "text": "rats",
+                "start": 153,
+                "end": 157,
+                "token_start": 28,
+                "token_end": 28,
+                "entityLabel": "M"
+            },
+            {
+                "text": "blood flow",
+                "start": 212,
+                "end": 222,
+                "token_start": 36,
+                "token_end": 37,
+                "entityLabel": "O"
+            }
+        ],
+        "relations": [
+            {
+                "child": 21,
+                "head": 7,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "The morphologic changes including micro-and ultra-structural changes of pulmonary arteries of rats were observed under optical microscope and electro-microscope, respectively.",
         "tokens": [],
         "relations": []
     },
     {
-        "document": "Finally, epidural morphine (30 microg/10 microl) in oxytocin treated rats, although resulting in no change of labor duration, significantly decreased the number of stretches (8 +/- 2 vs. 57 +/- 12 for epidural saline) and the number of c-Fos positive neurons in the lumbosacral spinal segments (80 +/- 25 vs. 165 +/- 17 for epidural saline).",
+        "document": "BACKGROUND: The relative effectiveness of second-generation (atypical) antipsychotic drugs as compared with that of older agents has been incompletely addressed, though newer agents are currently used far more commonly.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "The fertilization calcium wave is then set into the context of cell cycle control, and the mechanism of repetitive calcium spiking in mammalian eggs is investigated.",
         "tokens": [
             {
-                "text": "oxytocin",
-                "start": 52,
-                "end": 60,
-                "token_start": 12,
+                "text": "eggs",
+                "start": 144,
+                "end": 148,
+                "token_start": 24,
+                "token_end": 24,
+                "entityLabel": "C"
+            },
+            {
+                "text": "calcium spiking",
+                "start": 115,
+                "end": 130,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "C"
+            },
+            {
+                "text": "mammalian",
+                "start": 134,
+                "end": 143,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 24,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Evidence that the Wingless/calcium signaling pathway is a strong ventralizing signal in Xenopus, mediated by phosphoinositide signaling, is adumbrated.",
+        "tokens": [
+            {
+                "text": "phosphoinositide signaling",
+                "start": 109,
+                "end": 135,
+                "token_start": 18,
+                "token_end": 19,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "ventralizing signal",
+                "start": 65,
+                "end": 84,
+                "token_start": 11,
                 "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "Xenopus",
+                "start": 88,
+                "end": 95,
+                "token_start": 14,
+                "token_end": 14,
+                "entityLabel": "A"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 18,
+                "relationLabel": "AFFECTS"
+            }
+        ]
+    },
+    {
+        "document": "In preterm lambs, intraamniotic endotoxin and interleukin 1 (IL-1) induce lung inflammation followed by lung maturation.",
+        "tokens": [
+            {
+                "text": "interleukin 1",
+                "start": 46,
+                "end": 59,
+                "token_start": 7,
+                "token_end": 8,
                 "entityLabel": "Amino Acid, Peptide, or Protein"
             },
             {
-                "text": "rats",
-                "start": 69,
-                "end": 73,
-                "token_start": 14,
-                "token_end": 14,
+                "text": "lung inflammation",
+                "start": 74,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "D"
+            },
+            {
+                "text": "endotoxin",
+                "start": 32,
+                "end": 41,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Carbohydrate"
+            },
+            {
+                "text": "lambs",
+                "start": 11,
+                "end": 16,
+                "token_start": 2,
+                "token_end": 2,
                 "entityLabel": "M"
             },
             {
-                "text": "morphine",
-                "start": 18,
-                "end": 26,
-                "token_start": 3,
-                "token_end": 3,
-                "entityLabel": "Organic Chemical"
+                "text": "maturation",
+                "start": 109,
+                "end": 119,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 15,
+                "head": 7,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: Lung inflammation was induced by intraamniotic injection of endotoxin or IL-1.",
+        "tokens": [
+            {
+                "text": "injection",
+                "start": 56,
+                "end": 65,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
             },
             {
-                "text": "rats",
+                "text": "Lung inflammation",
+                "start": 9,
+                "end": 26,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "endotoxin",
                 "start": 69,
-                "end": 73,
-                "token_start": 14,
-                "token_end": 14,
-                "entityLabel": "M"
+                "end": 78,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Carbohydrate"
             },
             {
-                "text": "morphine",
-                "start": 18,
-                "end": 26,
-                "token_start": 3,
-                "token_end": 3,
-                "entityLabel": "Organic Chemical"
+                "text": "IL-1",
+                "start": 82,
+                "end": 86,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 8,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "We recently showed that the atypical PKC (aPKC) isozyme PKCiota is overexpressed in human non-small cell lung cancer (NSCLC) cells and that PKCiota plays a critical role in the transformed growth of the human lung adenocarcinoma A549 cell line in vitro and tumorigenicity in vivo.",
+        "tokens": [
+            {
+                "text": "PKCiota",
+                "start": 56,
+                "end": 63,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
             },
             {
-                "text": "labor duration",
-                "start": 110,
-                "end": 124,
-                "token_start": 22,
+                "text": "isozyme",
+                "start": 48,
+                "end": 55,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "tumorigenicity",
+                "start": 257,
+                "end": 271,
+                "token_start": 46,
+                "token_end": 46,
+                "entityLabel": "P"
+            },
+            {
+                "text": "human lung adenocarcinoma A549 cell line",
+                "start": 203,
+                "end": 243,
+                "token_start": 15,
+                "token_end": 20,
+                "entityLabel": "C"
+            },
+            {
+                "text": "cells",
+                "start": 125,
+                "end": 130,
+                "token_start": 23,
                 "token_end": 23,
                 "entityLabel": "C"
             },
             {
-                "text": "lumbosacral spinal",
-                "start": 266,
-                "end": 284,
-                "token_start": 56,
-                "token_end": 57,
-                "entityLabel": "B"
+                "text": "atypical PKC (aPKC)",
+                "start": 28,
+                "end": 47,
+                "token_start": 5,
+                "token_end": 9,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 10,
+                "head": 11,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "Here we provide compelling evidence that PKCiota is an oncogene in NSCLC based on the following criteria: (a) aPKCiota is overexpressed in the vast majority of primary NSCLC tumors; (b) tumor PKCiota expression levels predict poor survival in patients with NSCLC; (c) the PKCiota gene is frequently amplified in established NSCLC cell lines and primary NSCLC tumors; (d) gene amplification drives PKCiota expression in NSCLC cell lines and primary NSCLC tumors; and (e) disruption of PKCiota signaling with a dominant negative PKCiota allele blocks the transformed growth of human NSCLC cells harboring PKCiota gene amplification.",
+        "tokens": [
+            {
+                "text": "PKCiota",
+                "start": 41,
+                "end": 48,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
             },
             {
-                "text": "neurons",
-                "start": 251,
-                "end": 258,
-                "token_start": 53,
-                "token_end": 53,
-                "entityLabel": "C"
-            },
-            {
-                "text": "neurons",
-                "start": 251,
-                "end": 258,
-                "token_start": 53,
-                "token_end": 53,
-                "entityLabel": "C"
-            },
-            {
-                "text": "c-Fos",
-                "start": 236,
-                "end": 241,
-                "token_start": 51,
-                "token_end": 53,
+                "text": "oncogene",
+                "start": 55,
+                "end": 63,
+                "token_start": 9,
+                "token_end": 9,
                 "entityLabel": "G"
             },
             {
-                "text": "morphine",
-                "start": 18,
-                "end": 26,
-                "token_start": 3,
-                "token_end": 3,
-                "entityLabel": "Organic Chemical"
+                "text": "NSCLC",
+                "start": 67,
+                "end": 72,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "N"
             },
             {
-                "text": "neurons",
-                "start": 251,
-                "end": 258,
+                "text": "tumors",
+                "start": 174,
+                "end": 180,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "N"
+            },
+            {
+                "text": "aPKCiota",
+                "start": 110,
+                "end": 118,
+                "token_start": 21,
+                "token_end": 21,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "tumor",
+                "start": 186,
+                "end": 191,
+                "token_start": 36,
+                "token_end": 36,
+                "entityLabel": "N"
+            },
+            {
+                "text": "patients",
+                "start": 243,
+                "end": 251,
+                "token_start": 44,
+                "token_end": 44,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "cell line",
+                "start": 330,
+                "end": 339,
+                "token_start": 60,
+                "token_end": 61,
+                "entityLabel": "C"
+            },
+            {
+                "text": "gene amplification",
+                "start": 371,
+                "end": 389,
                 "token_start": 53,
-                "token_end": 53,
+                "token_end": 54,
+                "entityLabel": "G"
+            },
+            {
+                "text": "allele",
+                "start": 535,
+                "end": 541,
+                "token_start": 97,
+                "token_end": 97,
+                "entityLabel": "G"
+            },
+            {
+                "text": "cells",
+                "start": 587,
+                "end": 592,
+                "token_start": 105,
+                "token_end": 105,
                 "entityLabel": "C"
             }
         ],
         "relations": [
             {
-                "child": 14,
-                "head": 12,
-                "relationLabel": "TREATS"
+                "child": 9,
+                "head": 6,
+                "relationLabel": "ISA"
             },
             {
-                "child": 14,
-                "head": 3,
-                "relationLabel": "TREATS"
+                "child": 21,
+                "head": 31,
+                "relationLabel": "PRODUCES"
+            }
+        ]
+    },
+    {
+        "document": "One patient was successfully cured by steroid therapy, while the other did not respond to steroid but oral mesalazine was effective.",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "Systemic lupus erythematosus is frequently accompanied by gastrointestinal symptoms, but colonic lesions are quite rare, and the regular treatment is not fixed yet.",
+        "tokens": [
+            {
+                "text": "Systemic lupus erythematosus",
+                "start": 0,
+                "end": 28,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "D"
             },
             {
-                "child": 22,
-                "head": 3,
-                "relationLabel": "AFFECTS"
+                "text": "gastrointestinal symptoms",
+                "start": 58,
+                "end": 83,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "S"
             },
             {
-                "child": 53,
-                "head": 56,
+                "text": "colonic",
+                "start": 89,
+                "end": 96,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "B"
+            },
+            {
+                "text": "lesions",
+                "start": 97,
+                "end": 104,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 0,
+                "relationLabel": "COEXISTS_WITH"
+            },
+            {
+                "child": 12,
+                "head": 11,
                 "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 51,
-                "head": 53,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 53,
-                "head": 3,
-                "relationLabel": "DISRUPTS"
             }
         ]
     }

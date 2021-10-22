@@ -1,0 +1,779 @@
+[
+    {
+        "document": "METHODS: A questionnaire was used to assess the impact of FDG PET scan on diagnosis, management and clinical decision-making processes for epilepsy surgery from the managing clinician's perspective.",
+        "tokens": [
+            {
+                "text": "surgery",
+                "start": 148,
+                "end": 155,
+                "token_start": 24,
+                "token_end": 24,
+                "entityLabel": "T"
+            },
+            {
+                "text": "epilepsy",
+                "start": 139,
+                "end": 147,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "D"
+            },
+            {
+                "text": "PET scan",
+                "start": 62,
+                "end": 70,
+                "token_start": 12,
+                "token_end": 13,
+                "entityLabel": "D"
+            },
+            {
+                "text": "FDG",
+                "start": 58,
+                "end": 61,
+                "token_start": 11,
+                "token_end": 11,
+                "entityLabel": "Indicator, Reagent, or Diagnostic Aid"
+            }
+        ],
+        "relations": [
+            {
+                "child": 23,
+                "head": 24,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 11,
+                "head": 12,
+                "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "FDG PET had either a minor or a major impact on clinical management in 58 patients (51%), principally with regard to surgical candidacy.",
+        "tokens": [
+            {
+                "text": "FDG PET",
+                "start": 0,
+                "end": 7,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "D"
+            },
+            {
+                "text": "clinical management",
+                "start": 48,
+                "end": 67,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "H"
+            },
+            {
+                "text": "clinical management",
+                "start": 48,
+                "end": 67,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "H"
+            },
+            {
+                "text": "patients",
+                "start": 74,
+                "end": 82,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 11,
+                "head": 0,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 15,
+                "head": 11,
+                "relationLabel": "TREATS"
+            }
+        ]
+    },
+    {
+        "document": "The present study was designed to evaluate the effects of long-term use of aqueous extract of gutkha (a form of smokeless tobacco) on the antioxidant defense status and histopathological changes in liver, lung, and kidney of male Wistar rats.",
+        "tokens": [
+            {
+                "text": "liver",
+                "start": 198,
+                "end": 203,
+                "token_start": 33,
+                "token_end": 33,
+                "entityLabel": "B"
+            },
+            {
+                "text": "Wistar rats",
+                "start": 230,
+                "end": 241,
+                "token_start": 41,
+                "token_end": 42,
+                "entityLabel": "M"
+            },
+            {
+                "text": "lung",
+                "start": 205,
+                "end": 209,
+                "token_start": 35,
+                "token_end": 35,
+                "entityLabel": "B"
+            },
+            {
+                "text": "Wistar rats",
+                "start": 230,
+                "end": 241,
+                "token_start": 41,
+                "token_end": 42,
+                "entityLabel": "M"
+            },
+            {
+                "text": "kidney",
+                "start": 215,
+                "end": 221,
+                "token_start": 38,
+                "token_end": 38,
+                "entityLabel": "B"
+            },
+            {
+                "text": "Wistar rats",
+                "start": 230,
+                "end": 241,
+                "token_start": 41,
+                "token_end": 42,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 41,
+                "head": 33,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 41,
+                "head": 35,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 41,
+                "head": 38,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "Histopathological findings suggest that administration of AEST at the high dose for 2 weeks or at the low dose for 32 weeks could cause mild to moderate inflammation in liver and lungs.",
+        "tokens": [
+            {
+                "text": "AEST",
+                "start": 58,
+                "end": 62,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "S"
+            },
+            {
+                "text": "inflammation",
+                "start": 153,
+                "end": 165,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "P"
+            },
+            {
+                "text": "liver",
+                "start": 169,
+                "end": 174,
+                "token_start": 29,
+                "token_end": 29,
+                "entityLabel": "B"
+            },
+            {
+                "text": "inflammation",
+                "start": 153,
+                "end": 165,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "P"
+            },
+            {
+                "text": "lungs",
+                "start": 179,
+                "end": 184,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "B"
+            },
+            {
+                "text": "inflammation",
+                "start": 153,
+                "end": 165,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 27,
+                "head": 6,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 27,
+                "head": 29,
+                "relationLabel": "LOCATION_OF"
+            },
+            {
+                "child": 27,
+                "head": 31,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "In preterm lambs, intraamniotic endotoxin and interleukin 1 (IL-1) induce lung inflammation followed by lung maturation.",
+        "tokens": [
+            {
+                "text": "interleukin 1",
+                "start": 46,
+                "end": 59,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "lung inflammation",
+                "start": 74,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "D"
+            },
+            {
+                "text": "endotoxin",
+                "start": 32,
+                "end": 41,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "Carbohydrate"
+            },
+            {
+                "text": "lung inflammation",
+                "start": 74,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "D"
+            },
+            {
+                "text": "lung inflammation",
+                "start": 74,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "D"
+            },
+            {
+                "text": "lambs",
+                "start": 11,
+                "end": 16,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "M"
+            },
+            {
+                "text": "maturation",
+                "start": 109,
+                "end": 119,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "P"
+            },
+            {
+                "text": "lambs",
+                "start": 11,
+                "end": 16,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "M"
+            },
+            {
+                "text": "maturation",
+                "start": 109,
+                "end": 119,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "P"
+            },
+            {
+                "text": "lung",
+                "start": 104,
+                "end": 108,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "B"
+            },
+            {
+                "text": "lung inflammation",
+                "start": 74,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "D"
+            },
+            {
+                "text": "maturation",
+                "start": 109,
+                "end": 119,
+                "token_start": 20,
+                "token_end": 20,
+                "entityLabel": "P"
+            }
+        ],
+        "relations": [
+            {
+                "child": 15,
+                "head": 7,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 15,
+                "head": 5,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 2,
+                "head": 15,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 2,
+                "head": 20,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 15,
+                "head": 20,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 20,
+                "head": 15,
+                "relationLabel": "PRECEDES"
+            }
+        ]
+    },
+    {
+        "document": "METHODS: Lung inflammation was induced by intraamniotic injection of endotoxin or IL-1.",
+        "tokens": [
+            {
+                "text": "injection",
+                "start": 56,
+                "end": 65,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
+            },
+            {
+                "text": "Lung inflammation",
+                "start": 9,
+                "end": 26,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "D"
+            },
+            {
+                "text": "injection",
+                "start": 56,
+                "end": 65,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
+            },
+            {
+                "text": "endotoxin",
+                "start": 69,
+                "end": 78,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "Carbohydrate"
+            },
+            {
+                "text": "injection",
+                "start": 56,
+                "end": 65,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "T"
+            },
+            {
+                "text": "IL-1",
+                "start": 82,
+                "end": 86,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 8,
+                "relationLabel": "CAUSES"
+            },
+            {
+                "child": 10,
+                "head": 8,
+                "relationLabel": "USES"
+            },
+            {
+                "child": 12,
+                "head": 8,
+                "relationLabel": "USES"
+            }
+        ]
+    },
+    {
+        "document": "The interventions investigated were: antibiotics (4); home versus hospital administration of antibiotics (1); steroids (1); mucolytic therapies (6); exercise (3) and pancreatic enzymes (1).",
+        "tokens": [
+            {
+                "text": "antibiotics",
+                "start": 37,
+                "end": 48,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "A"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "steroids",
+                "start": 110,
+                "end": 118,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "S"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "administration",
+                "start": 75,
+                "end": 89,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "T"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "therapies",
+                "start": 134,
+                "end": 143,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "T"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "therapies",
+                "start": 134,
+                "end": 143,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "T"
+            },
+            {
+                "text": "mucolytic",
+                "start": 124,
+                "end": 133,
+                "token_start": 22,
+                "token_end": 22,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "exercise",
+                "start": 149,
+                "end": 157,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "D"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "antibiotics",
+                "start": 93,
+                "end": 104,
+                "token_start": 5,
+                "token_end": 5,
+                "entityLabel": "A"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            },
+            {
+                "text": "pancreatic enzymes",
+                "start": 166,
+                "end": 184,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "interventions",
+                "start": 4,
+                "end": 17,
+                "token_start": 1,
+                "token_end": 1,
+                "entityLabel": "H"
+            }
+        ],
+        "relations": [
+            {
+                "child": 1,
+                "head": 5,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 1,
+                "head": 18,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 1,
+                "head": 12,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 1,
+                "head": 23,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 22,
+                "head": 23,
+                "relationLabel": "USES"
+            },
+            {
+                "child": 1,
+                "head": 27,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 1,
+                "head": 5,
+                "relationLabel": "ISA"
+            },
+            {
+                "child": 1,
+                "head": 32,
+                "relationLabel": "ISA"
+            }
+        ]
+    },
+    {
+        "document": "Anterior uveitis and iris nodules that are associated with Langerhans cell histiocytosis.",
+        "tokens": [
+            {
+                "text": "Anterior uveitis",
+                "start": 0,
+                "end": 16,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "D"
+            },
+            {
+                "text": "Langerhans cell histiocytosis",
+                "start": 59,
+                "end": 88,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "D"
+            },
+            {
+                "text": "Anterior uveitis",
+                "start": 0,
+                "end": 16,
+                "token_start": 0,
+                "token_end": 1,
+                "entityLabel": "F"
+            },
+            {
+                "text": "Langerhans cell histiocytosis",
+                "start": 59,
+                "end": 88,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "D"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 0,
+                "relationLabel": "COEXISTS_WITH"
+            },
+            {
+                "child": 9,
+                "head": 0,
+                "relationLabel": "COEXISTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "RESULTS: An 18-year-old male patient with unilateral anterior segment inflammation and iris nodules experienced visual improvement from 20/200 to 20/25 after treatment with a 5-day course of topical corticosteroids.",
+        "tokens": [
+            {
+                "text": "inflammation",
+                "start": 70,
+                "end": 82,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "P"
+            },
+            {
+                "text": "patient",
+                "start": 29,
+                "end": 36,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "iris nodules",
+                "start": 87,
+                "end": 99,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "F"
+            },
+            {
+                "text": "patient",
+                "start": 29,
+                "end": 36,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "topical corticosteroids",
+                "start": 191,
+                "end": 214,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "P"
+            },
+            {
+                "text": "patient",
+                "start": 29,
+                "end": 36,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "topical corticosteroids",
+                "start": 191,
+                "end": 214,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "P"
+            },
+            {
+                "text": "inflammation",
+                "start": 70,
+                "end": 82,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "P"
+            },
+            {
+                "text": "topical corticosteroids",
+                "start": 191,
+                "end": 214,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "P"
+            },
+            {
+                "text": "iris nodules",
+                "start": 87,
+                "end": 99,
+                "token_start": 14,
+                "token_end": 15,
+                "entityLabel": "F"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 12,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 7,
+                "head": 14,
+                "relationLabel": "PROCESS_OF"
+            },
+            {
+                "child": 7,
+                "head": 32,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 12,
+                "head": 32,
+                "relationLabel": "TREATS"
+            },
+            {
+                "child": 14,
+                "head": 32,
+                "relationLabel": "TREATS"
+            }
+        ]
+    }
+]

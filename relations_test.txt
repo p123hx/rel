@@ -1,783 +1,644 @@
 [
     {
-        "document": "METHODS: A questionnaire was used to assess the impact of FDG PET scan on diagnosis, management and clinical decision-making processes for epilepsy surgery from the managing clinician's perspective.",
+        "document": "The probasal bodies and microtubules within the blepharoplast cavities are labeled with antibodies specific to acetylated tubulin.",
         "tokens": [
             {
-                "text": "surgery",
-                "start": 148,
-                "end": 155,
-                "token_start": 24,
-                "token_end": 24,
-                "entityLabel": "T"
+                "text": "microtubules",
+                "start": 24,
+                "end": 36,
+                "token_start": 4,
+                "token_end": 4,
+                "entityLabel": "C"
             },
             {
-                "text": "epilepsy",
-                "start": 139,
-                "end": 147,
-                "token_start": 23,
-                "token_end": 23,
-                "entityLabel": "D"
-            },
-            {
-                "text": "PET scan",
-                "start": 62,
-                "end": 70,
-                "token_start": 12,
-                "token_end": 13,
-                "entityLabel": "D"
-            },
-            {
-                "text": "FDG",
-                "start": 58,
+                "text": "blepharoplast",
+                "start": 48,
                 "end": 61,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "C"
+            },
+            {
+                "text": "antibodies",
+                "start": 88,
+                "end": 98,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            },
+            {
+                "text": "acetylated tubulin",
+                "start": 111,
+                "end": 129,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 4,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 15,
+                "head": 12,
+                "relationLabel": "INTERACTS_WITH"
+            }
+        ]
+    },
+    {
+        "document": "Positive but weak reactions of the blepharoplast core occur with the centrosome reactive antibodies MPM-2 and C-9.",
+        "tokens": [
+            {
+                "text": "core",
+                "start": 49,
+                "end": 53,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "C"
+            },
+            {
+                "text": "blepharoplast",
+                "start": 35,
+                "end": 48,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "C"
+            },
+            {
+                "text": "centrosome",
+                "start": 69,
+                "end": 79,
                 "token_start": 11,
                 "token_end": 11,
-                "entityLabel": "Indicator, Reagent, or Diagnostic Aid"
+                "entityLabel": "C"
+            },
+            {
+                "text": "antibodies",
+                "start": 88,
+                "end": 98,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "Amino Acid, Peptide, or Protein"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 7,
+                "relationLabel": "PART_OF"
+            },
+            {
+                "child": 13,
+                "head": 11,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Some of these sequences are implicated in various specific cellular events, including meiotic recombination, chromosomal breaks and transcriptional regulation, and also in several human disorders.",
+        "tokens": [
+            {
+                "text": "disorders",
+                "start": 186,
+                "end": 195,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "D"
+            },
+            {
+                "text": "human",
+                "start": 180,
+                "end": 185,
+                "token_start": 26,
+                "token_end": 26,
+                "entityLabel": "Group"
+            },
+            {
+                "text": "sequences",
+                "start": 14,
+                "end": 23,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "Nucleic Acid, Nucleoside, or Nucleotide"
+            },
+            {
+                "text": "meiotic recombination",
+                "start": 86,
+                "end": 107,
+                "token_start": 13,
+                "token_end": 14,
+                "entityLabel": "C"
+            },
+            {
+                "text": "chromosomal breaks",
+                "start": 109,
+                "end": 127,
+                "token_start": 16,
+                "token_end": 17,
+                "entityLabel": "C"
+            },
+            {
+                "text": "transcriptional regulation",
+                "start": 132,
+                "end": 158,
+                "token_start": 19,
+                "token_end": 20,
+                "entityLabel": "C"
+            }
+        ],
+        "relations": [
+            {
+                "child": 26,
+                "head": 27,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "In this review, we document the formation of DNA secondary structures by the G-rich repetitive sequences that have been found in several minisatellites, telomeres and in various triplet repeats, and report their effects on in vitro DNA synthesis.",
+        "tokens": [
+            {
+                "text": "DNA secondary structures",
+                "start": 45,
+                "end": 69,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "N"
+            },
+            {
+                "text": "repetitive sequences",
+                "start": 84,
+                "end": 104,
+                "token_start": 15,
+                "token_end": 16,
+                "entityLabel": "N"
+            },
+            {
+                "text": "minisatellites",
+                "start": 137,
+                "end": 151,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "triplet repeats",
+                "start": 178,
+                "end": 193,
+                "token_start": 29,
+                "token_end": 30,
+                "entityLabel": "Biologically Active Substance"
+            },
+            {
+                "text": "telomeres",
+                "start": 153,
+                "end": 162,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "C"
             }
         ],
         "relations": [
             {
                 "child": 23,
-                "head": 24,
-                "relationLabel": "TREATS"
-            },
-            {
-                "child": 11,
-                "head": 12,
-                "relationLabel": "USES"
-            }
-        ]
-    },
-    {
-        "document": "FDG PET had either a minor or a major impact on clinical management in 58 patients (51%), principally with regard to surgical candidacy.",
-        "tokens": [
-            {
-                "text": "FDG PET",
-                "start": 0,
-                "end": 7,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "D"
-            },
-            {
-                "text": "clinical management",
-                "start": 48,
-                "end": 67,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "H"
-            },
-            {
-                "text": "clinical management",
-                "start": 48,
-                "end": 67,
-                "token_start": 11,
-                "token_end": 12,
-                "entityLabel": "H"
-            },
-            {
-                "text": "patients",
-                "start": 74,
-                "end": 82,
-                "token_start": 15,
-                "token_end": 15,
-                "entityLabel": "H"
-            }
-        ],
-        "relations": [
-            {
-                "child": 11,
-                "head": 0,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 15,
-                "head": 11,
-                "relationLabel": "TREATS"
-            }
-        ]
-    },
-    {
-        "document": "The present study was designed to evaluate the effects of long-term use of aqueous extract of gutkha (a form of smokeless tobacco) on the antioxidant defense status and histopathological changes in liver, lung, and kidney of male Wistar rats.",
-        "tokens": [
-            {
-                "text": "liver",
-                "start": 198,
-                "end": 203,
-                "token_start": 33,
-                "token_end": 33,
-                "entityLabel": "B"
-            },
-            {
-                "text": "Wistar rats",
-                "start": 230,
-                "end": 241,
-                "token_start": 41,
-                "token_end": 42,
-                "entityLabel": "M"
-            },
-            {
-                "text": "lung",
-                "start": 205,
-                "end": 209,
-                "token_start": 35,
-                "token_end": 35,
-                "entityLabel": "B"
-            },
-            {
-                "text": "Wistar rats",
-                "start": 230,
-                "end": 241,
-                "token_start": 41,
-                "token_end": 42,
-                "entityLabel": "M"
-            },
-            {
-                "text": "kidney",
-                "start": 215,
-                "end": 221,
-                "token_start": 38,
-                "token_end": 38,
-                "entityLabel": "B"
-            },
-            {
-                "text": "Wistar rats",
-                "start": 230,
-                "end": 241,
-                "token_start": 41,
-                "token_end": 42,
-                "entityLabel": "M"
-            }
-        ],
-        "relations": [
-            {
-                "child": 41,
-                "head": 33,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 41,
-                "head": 35,
-                "relationLabel": "PART_OF"
-            },
-            {
-                "child": 41,
-                "head": 38,
-                "relationLabel": "PART_OF"
-            }
-        ]
-    },
-    {
-        "document": "Histopathological findings suggest that administration of AEST at the high dose for 2 weeks or at the low dose for 32 weeks could cause mild to moderate inflammation in liver and lungs.",
-        "tokens": [
-            {
-                "text": "AEST",
-                "start": 58,
-                "end": 62,
-                "token_start": 6,
-                "token_end": 6,
-                "entityLabel": "S"
-            },
-            {
-                "text": "inflammation",
-                "start": 153,
-                "end": 165,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "P"
-            },
-            {
-                "text": "liver",
-                "start": 169,
-                "end": 174,
-                "token_start": 29,
-                "token_end": 29,
-                "entityLabel": "B"
-            },
-            {
-                "text": "inflammation",
-                "start": 153,
-                "end": 165,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lungs",
-                "start": 179,
-                "end": 184,
-                "token_start": 31,
-                "token_end": 31,
-                "entityLabel": "B"
-            },
-            {
-                "text": "inflammation",
-                "start": 153,
-                "end": 165,
-                "token_start": 27,
-                "token_end": 27,
-                "entityLabel": "P"
-            }
-        ],
-        "relations": [
-            {
-                "child": 27,
-                "head": 6,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 27,
-                "head": 29,
-                "relationLabel": "LOCATION_OF"
-            },
-            {
-                "child": 27,
-                "head": 31,
-                "relationLabel": "LOCATION_OF"
-            }
-        ]
-    },
-    {
-        "document": "In preterm lambs, intraamniotic endotoxin and interleukin 1 (IL-1) induce lung inflammation followed by lung maturation.",
-        "tokens": [
-            {
-                "text": "interleukin 1",
-                "start": 46,
-                "end": 59,
-                "token_start": 7,
-                "token_end": 8,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "endotoxin",
-                "start": 32,
-                "end": 41,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "Carbohydrate"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "lambs",
-                "start": 11,
-                "end": 16,
-                "token_start": 2,
-                "token_end": 2,
-                "entityLabel": "M"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lambs",
-                "start": 11,
-                "end": 16,
-                "token_start": 2,
-                "token_end": 2,
-                "entityLabel": "M"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            },
-            {
-                "text": "lung",
-                "start": 104,
-                "end": 108,
-                "token_start": 15,
-                "token_end": 15,
-                "entityLabel": "B"
-            },
-            {
-                "text": "lung inflammation",
-                "start": 74,
-                "end": 91,
-                "token_start": 15,
-                "token_end": 16,
-                "entityLabel": "D"
-            },
-            {
-                "text": "maturation",
-                "start": 109,
-                "end": 119,
-                "token_start": 20,
-                "token_end": 20,
-                "entityLabel": "P"
-            }
-        ],
-        "relations": [
-            {
-                "child": 15,
-                "head": 7,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 15,
-                "head": 5,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 2,
                 "head": 15,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 2,
-                "head": 20,
-                "relationLabel": "PROCESS_OF"
-            },
-            {
-                "child": 15,
-                "head": 20,
-                "relationLabel": "AFFECTS"
-            },
-            {
-                "child": 20,
-                "head": 15,
-                "relationLabel": "PRECEDES"
+                "relationLabel": "PART_OF"
             }
         ]
     },
     {
-        "document": "METHODS: Lung inflammation was induced by intraamniotic injection of endotoxin or IL-1.",
-        "tokens": [
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "Lung inflammation",
-                "start": 9,
-                "end": 26,
-                "token_start": 2,
-                "token_end": 3,
-                "entityLabel": "D"
-            },
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "endotoxin",
-                "start": 69,
-                "end": 78,
-                "token_start": 10,
-                "token_end": 10,
-                "entityLabel": "Carbohydrate"
-            },
-            {
-                "text": "injection",
-                "start": 56,
-                "end": 65,
-                "token_start": 8,
-                "token_end": 8,
-                "entityLabel": "T"
-            },
-            {
-                "text": "IL-1",
-                "start": 82,
-                "end": 86,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "Amino Acid, Peptide, or Protein"
-            }
-        ],
-        "relations": [
-            {
-                "child": 2,
-                "head": 8,
-                "relationLabel": "CAUSES"
-            },
-            {
-                "child": 10,
-                "head": 8,
-                "relationLabel": "USES"
-            },
-            {
-                "child": 12,
-                "head": 8,
-                "relationLabel": "USES"
-            }
-        ]
-    },
-    {
-        "document": "Our data suggest that the three closely related fission yeast Rho-GEF molecules perform two distinct essential functions.",
+        "document": "The difference in brine concentration had a very large impact on the salt in moisture content of the cheese.",
         "tokens": [],
         "relations": []
     },
     {
-        "document": "The interventions investigated were: antibiotics (4); home versus hospital administration of antibiotics (1); steroids (1); mucolytic therapies (6); exercise (3) and pancreatic enzymes (1).",
+        "document": "We have recently shown that melatonin decreases the late (24 hr) increase in blood-brain barrier (BBB) permeability and the risk of tissue plasminogen activator-induced hemorrhagic transformation following ischemic stroke in mice.",
         "tokens": [
             {
-                "text": "antibiotics",
-                "start": 37,
-                "end": 48,
+                "text": "melatonin",
+                "start": 28,
+                "end": 37,
                 "token_start": 5,
                 "token_end": 5,
-                "entityLabel": "A"
+                "entityLabel": "Hormone"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "steroids",
-                "start": 110,
-                "end": 118,
-                "token_start": 18,
+                "text": "blood-brain barrier",
+                "start": 77,
+                "end": 96,
+                "token_start": 15,
                 "token_end": 18,
-                "entityLabel": "S"
+                "entityLabel": "B"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "administration",
-                "start": 75,
-                "end": 89,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "T"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "therapies",
-                "start": 134,
-                "end": 143,
-                "token_start": 23,
-                "token_end": 23,
-                "entityLabel": "T"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "therapies",
-                "start": 134,
-                "end": 143,
-                "token_start": 23,
-                "token_end": 23,
-                "entityLabel": "T"
-            },
-            {
-                "text": "mucolytic",
-                "start": 124,
-                "end": 133,
-                "token_start": 22,
-                "token_end": 22,
-                "entityLabel": "Organic Chemical"
-            },
-            {
-                "text": "exercise",
-                "start": 149,
-                "end": 157,
-                "token_start": 27,
+                "text": "tissue plasminogen activator",
+                "start": 132,
+                "end": 160,
+                "token_start": 25,
                 "token_end": 27,
-                "entityLabel": "D"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "antibiotics",
-                "start": 93,
-                "end": 104,
-                "token_start": 5,
-                "token_end": 5,
-                "entityLabel": "A"
-            },
-            {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
-                "token_start": 1,
-                "token_end": 1,
-                "entityLabel": "H"
-            },
-            {
-                "text": "pancreatic enzymes",
-                "start": 166,
-                "end": 184,
-                "token_start": 32,
-                "token_end": 33,
                 "entityLabel": "Amino Acid, Peptide, or Protein"
             },
             {
-                "text": "interventions",
-                "start": 4,
-                "end": 17,
+                "text": "hemorrhagic transformation",
+                "start": 169,
+                "end": 195,
+                "token_start": 28,
+                "token_end": 29,
+                "entityLabel": "D"
+            },
+            {
+                "text": "ischemic stroke",
+                "start": 206,
+                "end": 221,
+                "token_start": 31,
+                "token_end": 32,
+                "entityLabel": "D"
+            },
+            {
+                "text": "mice",
+                "start": 225,
+                "end": 229,
+                "token_start": 34,
+                "token_end": 34,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 15,
+                "head": 5,
+                "relationLabel": "AFFECTS"
+            },
+            {
+                "child": 28,
+                "head": 25,
+                "relationLabel": "CAUSES"
+            }
+        ]
+    },
+    {
+        "document": "In the study, we further explored whether melatonin would reduce postischemic neurovascular oxidative/nitrosative damage and, therefore, improve preservation of the early increase in the BBB permeability at 4 hr after transient focal cerebral ischemia for 60 min in mice.",
+        "tokens": [
+            {
+                "text": "melatonin",
+                "start": 42,
+                "end": 51,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "Hormone"
+            },
+            {
+                "text": "oxidative/nitrosative damage",
+                "start": 92,
+                "end": 120,
+                "token_start": 13,
+                "token_end": 16,
+                "entityLabel": "C"
+            },
+            {
+                "text": "permeability",
+                "start": 191,
+                "end": 203,
+                "token_start": 30,
+                "token_end": 30,
+                "entityLabel": "N"
+            },
+            {
+                "text": "transient focal cerebral ischemia",
+                "start": 218,
+                "end": 251,
+                "token_start": 35,
+                "token_end": 38,
+                "entityLabel": "D"
+            },
+            {
+                "text": "mice",
+                "start": 266,
+                "end": 270,
+                "token_start": 43,
+                "token_end": 43,
+                "entityLabel": "M"
+            }
+        ],
+        "relations": [
+            {
+                "child": 13,
+                "head": 8,
+                "relationLabel": "PREVENTS"
+            },
+            {
+                "child": 43,
+                "head": 35,
+                "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "Liquid chromatography-tandem mass spectroscopy assay for quercetin and conjugated quercetin metabolites in human plasma and urine.",
+        "tokens": [
+            {
+                "text": "plasma",
+                "start": 113,
+                "end": 119,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "B"
+            },
+            {
+                "text": "quercetin",
+                "start": 82,
+                "end": 91,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "Organic Chemical"
+            },
+            {
+                "text": "urine",
+                "start": 124,
+                "end": 129,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "B"
+            },
+            {
+                "text": "metabolites",
+                "start": 92,
+                "end": 103,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "B"
+            },
+            {
+                "text": "human",
+                "start": 107,
+                "end": 112,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "Group"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 13,
+                "relationLabel": "LOCATION_OF"
+            }
+        ]
+    },
+    {
+        "document": "Features of the clear zone of odontoclasts in the Chinook salmon (Oncorhynchus tshawytscha).",
+        "tokens": [],
+        "relations": []
+    },
+    {
+        "document": "This study aims to clarify the features of the clear zone of odontoclasts on shedding teeth of a teleost fish, Chinook salmon, Oncorhynchus tshawytscha (Walbaum), using a light microscope to determine the orientation between a cell body and a resorptive lacuna, followed by transmission electron microscopy.",
+        "tokens": [
+            {
+                "text": "odontoclasts",
+                "start": 61,
+                "end": 73,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "C"
+            },
+            {
+                "text": "teeth",
+                "start": 86,
+                "end": 91,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "B"
+            },
+            {
+                "text": "teleost fish",
+                "start": 97,
+                "end": 109,
+                "token_start": 18,
+                "token_end": 19,
+                "entityLabel": "F"
+            },
+            {
+                "text": "Chinook salmon",
+                "start": 111,
+                "end": 125,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "F"
+            },
+            {
+                "text": "study",
+                "start": 5,
+                "end": 10,
                 "token_start": 1,
                 "token_end": 1,
-                "entityLabel": "H"
+                "entityLabel": "L"
+            },
+            {
+                "text": "light microscope",
+                "start": 171,
+                "end": 187,
+                "token_start": 32,
+                "token_end": 33,
+                "entityLabel": "M"
+            },
+            {
+                "text": "transmission electron microscopy",
+                "start": 274,
+                "end": 306,
+                "token_start": 49,
+                "token_end": 51,
+                "entityLabel": "L"
             }
         ],
         "relations": [
             {
-                "child": 1,
-                "head": 5,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 1,
-                "head": 18,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 1,
+                "child": 15,
                 "head": 12,
-                "relationLabel": "ISA"
+                "relationLabel": "PART_OF"
             },
             {
-                "child": 1,
-                "head": 23,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 22,
-                "head": 23,
+                "child": 32,
+                "head": 1,
                 "relationLabel": "USES"
-            },
-            {
-                "child": 1,
-                "head": 27,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 1,
-                "head": 5,
-                "relationLabel": "ISA"
-            },
-            {
-                "child": 1,
-                "head": 32,
-                "relationLabel": "ISA"
             }
         ]
     },
     {
-        "document": "Anterior uveitis and iris nodules that are associated with Langerhans cell histiocytosis.",
+        "document": "METHODS: After venous blood sampling, subjects (16 CFS patients) performed a maximal exercise stress test on a bicycle ergometer with continuous monitoring of cardiorespiratory variables.",
         "tokens": [
             {
-                "text": "Anterior uveitis",
-                "start": 0,
-                "end": 16,
-                "token_start": 0,
-                "token_end": 1,
+                "text": "CFS",
+                "start": 51,
+                "end": 54,
+                "token_start": 10,
+                "token_end": 10,
                 "entityLabel": "D"
             },
             {
-                "text": "Langerhans cell histiocytosis",
-                "start": 59,
-                "end": 88,
-                "token_start": 9,
+                "text": "patients",
+                "start": 55,
+                "end": 63,
+                "token_start": 11,
                 "token_end": 11,
+                "entityLabel": "Patient or Disabled Group"
+            },
+            {
+                "text": "exercise stress test",
+                "start": 85,
+                "end": 105,
+                "token_start": 16,
+                "token_end": 18,
                 "entityLabel": "D"
             },
             {
-                "text": "Anterior uveitis",
-                "start": 0,
-                "end": 16,
-                "token_start": 0,
-                "token_end": 1,
-                "entityLabel": "F"
-            },
-            {
-                "text": "Langerhans cell histiocytosis",
-                "start": 59,
-                "end": 88,
-                "token_start": 9,
-                "token_end": 11,
-                "entityLabel": "D"
+                "text": "bicycle ergometer",
+                "start": 111,
+                "end": 128,
+                "token_start": 21,
+                "token_end": 22,
+                "entityLabel": "M"
             }
         ],
         "relations": [
             {
-                "child": 9,
-                "head": 0,
-                "relationLabel": "COEXISTS_WITH"
-            },
-            {
-                "child": 9,
-                "head": 0,
-                "relationLabel": "COEXISTS_WITH"
+                "child": 11,
+                "head": 10,
+                "relationLabel": "PROCESS_OF"
             }
         ]
     },
     {
-        "document": "RESULTS: An 18-year-old male patient with unilateral anterior segment inflammation and iris nodules experienced visual improvement from 20/200 to 20/25 after treatment with a 5-day course of topical corticosteroids.",
+        "document": "CONCLUSION: These data provide evidence for an association between intracellular immune deregulation and exercise performance in patients with CFS.",
         "tokens": [
             {
-                "text": "inflammation",
-                "start": 70,
-                "end": 82,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "P"
+                "text": "CFS",
+                "start": 143,
+                "end": 146,
+                "token_start": 19,
+                "token_end": 19,
+                "entityLabel": "D"
             },
             {
-                "text": "patient",
-                "start": 29,
-                "end": 36,
-                "token_start": 7,
-                "token_end": 7,
+                "text": "patients",
+                "start": 129,
+                "end": 137,
+                "token_start": 17,
+                "token_end": 17,
                 "entityLabel": "Patient or Disabled Group"
             },
             {
-                "text": "iris nodules",
-                "start": 87,
-                "end": 99,
-                "token_start": 14,
+                "text": "performance",
+                "start": 114,
+                "end": 125,
+                "token_start": 15,
                 "token_end": 15,
-                "entityLabel": "F"
-            },
-            {
-                "text": "patient",
-                "start": 29,
-                "end": 36,
-                "token_start": 7,
-                "token_end": 7,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "topical corticosteroids",
-                "start": 191,
-                "end": 214,
-                "token_start": 32,
-                "token_end": 33,
-                "entityLabel": "P"
-            },
-            {
-                "text": "patient",
-                "start": 29,
-                "end": 36,
-                "token_start": 7,
-                "token_end": 7,
-                "entityLabel": "Patient or Disabled Group"
-            },
-            {
-                "text": "topical corticosteroids",
-                "start": 191,
-                "end": 214,
-                "token_start": 32,
-                "token_end": 33,
-                "entityLabel": "P"
-            },
-            {
-                "text": "inflammation",
-                "start": 70,
-                "end": 82,
-                "token_start": 12,
-                "token_end": 12,
-                "entityLabel": "P"
-            },
-            {
-                "text": "topical corticosteroids",
-                "start": 191,
-                "end": 214,
-                "token_start": 32,
-                "token_end": 33,
-                "entityLabel": "P"
-            },
-            {
-                "text": "iris nodules",
-                "start": 87,
-                "end": 99,
-                "token_start": 14,
-                "token_end": 15,
-                "entityLabel": "F"
+                "entityLabel": "I"
             }
         ],
         "relations": [
             {
-                "child": 7,
-                "head": 12,
+                "child": 17,
+                "head": 19,
                 "relationLabel": "PROCESS_OF"
+            }
+        ]
+    },
+    {
+        "document": "BAFF-R expression was found only in B-cell lymphoma (44/80, positive cases/examined cases): B-lymphoblastic lymphoma 0/3, B-chronic lymphocytic leukemia/small lymphocytic lymphoma 4/4, mantle cell lymphoma 9/11, follicular lymphoma 10/14, diffuse large B-cell lymphoma (DLBCL) 11/25, marginal zone B-cell lymphoma 8/10, lymphoplasmacytic lymphoma 2/2, plasma cell myeloma 0/2, and Burkitt lymphoma 0/9, but not in T/NK cell lymphomas (0/19) or Hodgkin lymphoma (0/10).",
+        "tokens": [
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
             },
             {
-                "child": 7,
-                "head": 14,
-                "relationLabel": "PROCESS_OF"
+                "text": "B-cell lymphoma",
+                "start": 36,
+                "end": 51,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
             },
             {
-                "child": 7,
-                "head": 32,
-                "relationLabel": "TREATS"
+                "text": "plasma cell myeloma",
+                "start": 352,
+                "end": 371,
+                "token_start": 59,
+                "token_end": 61,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "PART_OF"
+            }
+        ]
+    },
+    {
+        "document": "BAFF-R was expressed in most low-grade B-cell neoplasms and a small number of DLBCL, suggesting that BAFF-R may play an important role in the proliferation of neoplastic lymphoid cells.",
+        "tokens": [
+            {
+                "text": "BAFF-R",
+                "start": 0,
+                "end": 6,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "G"
             },
             {
-                "child": 12,
-                "head": 32,
-                "relationLabel": "TREATS"
+                "text": "B-cell neoplasms",
+                "start": 39,
+                "end": 55,
+                "token_start": 6,
+                "token_end": 9,
+                "entityLabel": "N"
             },
             {
-                "child": 14,
-                "head": 32,
-                "relationLabel": "TREATS"
+                "text": "DLBCL",
+                "start": 78,
+                "end": 83,
+                "token_start": 13,
+                "token_end": 13,
+                "entityLabel": "N"
+            },
+            {
+                "text": "proliferation",
+                "start": 142,
+                "end": 155,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "C"
+            },
+            {
+                "text": "lymphoid cells",
+                "start": 170,
+                "end": 184,
+                "token_start": 28,
+                "token_end": 29,
+                "entityLabel": "C"
+            },
+            {
+                "text": "neoplastic",
+                "start": 159,
+                "end": 169,
+                "token_start": 27,
+                "token_end": 27,
+                "entityLabel": "N"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 0,
+                "relationLabel": "PART_OF"
             }
         ]
     }

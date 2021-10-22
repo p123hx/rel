@@ -1,5 +1,5 @@
 import json
-from spacy.util import filter_spans
+
 import typer
 from pathlib import Path
 
@@ -30,6 +30,12 @@ train_file='./relations_training.spacy'
 dev_file='./relations_dev.spacy'
 test_file='./relations_test.spacy'
 
+# ann = "./sampledata/relations_training.txt"
+# ann_dev = "./sampledata/relations_dev.txt"
+# ann_test = "./sampledata/relations_test.txt"
+# train_file='./dataout/relations_training.spacy'
+# dev_file='./dataout/relations_dev.spacy'
+# test_file='./dataout/relations_test.spacy'
 def main(json_loc: Path, train_file: Path, dev_file: Path, test_file: Path):
     """Creating the corpus from the Prodigy annotations."""
     Doc.set_extension("rel", default={},force=True)
@@ -48,29 +54,35 @@ def main(json_loc: Path, train_file: Path, dev_file: Path, test_file: Path):
             pos = 0
                     # Parse the tokens
             tokens=nlp(example["document"])    
-
+            print(tokens)
             spaces=[]
             spaces = [True if tok.whitespace_ else False for tok in tokens]
             words = [t.text for t in tokens]
             doc = Doc(nlp.vocab, words=words, spaces=spaces)
 
-
             # Parse the GGP entities
             spans = example["tokens"]
-            entities = []
+            print(spans)
+            entities = set()
             span_end_to_start = {}
             for span in spans:
                 entity = doc.char_span(
                      span["start"], span["end"], label=span["entityLabel"]
                  )
+                # flag = False
+                # for tmp in entities:
+                #     if tmp.text == entity.text:
+                #         flag=True
+                #         break
+                # if not flag:
+                if entity:
+                    span_end_to_start[span["token_start"]] = span["token_start"]
+                    entities.add(entity)
+                    span_starts.add(span["token_start"])
 
+            print("updated",entities)
 
-                span_end_to_start[span["token_start"]] = span["token_start"]
-                #print(span_end_to_start)
-                entities.append(entity)
-                span_starts.add(span["token_start"])
-
-            # doc.ents = filter_spans(entities)
+            doc.ents = entities
 
             # Parse the relations
             rels = {}
